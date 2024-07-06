@@ -1,0 +1,970 @@
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{cmd}] [%X{etag}] [%X{ticket}] [%X{toll}]: %m%n%throwable
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{cmd}] [%X{etag}] [%X{ticket}] [%X{toll}]: %m%n%throwable
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{cmd}] [%X{etag}] [%X{ticket}] [%X{toll}]: %m%n%throwable
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{cmd}] [%X{etag}] [%X{ticket}] [%X{toll}]: %m%n%throwable
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+2024-07-06 11:14:51,158 INFO StartupInfoLogger [restartedMain] [] [] [] []: Starting DemoKeycloak22Application using Java 17.0.10 with PID 5816 (/Users/hoaipn/Working/Git/core/demo-keycloak22/target/classes started by hoaipn in /Users/hoaipn/Working/Git/core/demo-keycloak22)
+2024-07-06 11:14:51,160 INFO SpringApplication [restartedMain] [] [] [] []: No active profile set, falling back to 1 default profile: "default"
+2024-07-06 11:14:51,186 INFO DeferredLog [restartedMain] [] [] [] []: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-06 11:14:51,187 INFO DeferredLog [restartedMain] [] [] [] []: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-06 11:14:51,670 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat initialized with port(s): 8888 (http)
+2024-07-06 11:14:51,675 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:14:51,676 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting service [Tomcat]
+2024-07-06 11:14:51,676 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-06 11:14:51,705 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing Spring embedded WebApplicationContext
+2024-07-06 11:14:51,705 INFO ServletWebServerApplicationContext [restartedMain] [] [] [] []: Root WebApplicationContext: initialization completed in 518 ms
+2024-07-06 11:14:51,862 INFO DefaultSecurityFilterChain [restartedMain] [] [] [] []: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6b8af487, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3bc5196a, org.springframework.security.web.context.SecurityContextHolderFilter@75b1ed20, org.springframework.security.web.header.HeaderWriterFilter@4036f28b, org.springframework.security.web.csrf.CsrfFilter@1f44aed9, org.springframework.security.web.authentication.logout.LogoutFilter@902497, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@283320e3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7b561537, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@645d07df, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@ac002c9, org.springframework.security.web.access.ExceptionTranslationFilter@2dd14b8e, org.springframework.security.web.access.intercept.AuthorizationFilter@199a9ce6]
+2024-07-06 11:14:51,930 INFO OptionalLiveReloadServer [restartedMain] [] [] [] []: LiveReload server is running on port 35729
+2024-07-06 11:14:51,938 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:14:51,948 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat started on port(s): 8888 (http) with context path ''
+2024-07-06 11:14:51,954 INFO StartupInfoLogger [restartedMain] [] [] [] []: Started DemoKeycloak22Application in 0.969 seconds (process running for 1.352)
+2024-07-06 11:16:27,867 INFO DirectJDKLog [http-nio-8888-exec-1] [] [] [] []: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-06 11:16:27,868 INFO FrameworkServlet [http-nio-8888-exec-1] [] [] [] []: Initializing Servlet 'dispatcherServlet'
+2024-07-06 11:16:27,869 INFO FrameworkServlet [http-nio-8888-exec-1] [] [] [] []: Completed initialization in 1 ms
+2024-07-06 11:16:28,005 INFO AuditFilter [http-nio-8888-exec-1] [oPbFgf4D] [0:0:0:0:0:0:0:1] [hoaipn] []: Filter executed, user=hoaipn
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+2024-07-06 11:17:17,135 INFO StartupInfoLogger [restartedMain] [] [] [] []: Starting DemoKeycloak22Application using Java 17.0.10 with PID 5889 (/Users/hoaipn/Working/Git/core/demo-keycloak22/target/classes started by hoaipn in /Users/hoaipn/Working/Git/core/demo-keycloak22)
+2024-07-06 11:17:17,136 INFO SpringApplication [restartedMain] [] [] [] []: No active profile set, falling back to 1 default profile: "default"
+2024-07-06 11:17:17,162 INFO DeferredLog [restartedMain] [] [] [] []: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-06 11:17:17,162 INFO DeferredLog [restartedMain] [] [] [] []: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-06 11:17:17,716 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat initialized with port(s): 8888 (http)
+2024-07-06 11:17:17,721 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:17:17,722 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting service [Tomcat]
+2024-07-06 11:17:17,722 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-06 11:17:17,750 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing Spring embedded WebApplicationContext
+2024-07-06 11:17:17,750 INFO ServletWebServerApplicationContext [restartedMain] [] [] [] []: Root WebApplicationContext: initialization completed in 588 ms
+2024-07-06 11:17:17,922 INFO DefaultSecurityFilterChain [restartedMain] [] [] [] []: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2bf667c4, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@48c4f1a, org.springframework.security.web.context.SecurityContextHolderFilter@5c9a46c9, org.springframework.security.web.header.HeaderWriterFilter@107ba5fc, org.springframework.security.web.csrf.CsrfFilter@491df46a, org.springframework.security.web.authentication.logout.LogoutFilter@6539159a, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@1d467e38, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7a4f8660, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1c586ceb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2a95560d, org.springframework.security.web.access.ExceptionTranslationFilter@79f2ca2b, org.springframework.security.web.access.intercept.AuthorizationFilter@36e576e6]
+2024-07-06 11:17:17,996 INFO OptionalLiveReloadServer [restartedMain] [] [] [] []: LiveReload server is running on port 35729
+2024-07-06 11:17:18,004 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:17:18,015 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat started on port(s): 8888 (http) with context path ''
+2024-07-06 11:17:18,021 INFO StartupInfoLogger [restartedMain] [] [] [] []: Started DemoKeycloak22Application in 1.069 seconds (process running for 1.56)
+2024-07-06 11:17:22,188 INFO DirectJDKLog [http-nio-8888-exec-2] [] [] [] []: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-06 11:17:22,188 INFO FrameworkServlet [http-nio-8888-exec-2] [] [] [] []: Initializing Servlet 'dispatcherServlet'
+2024-07-06 11:17:22,190 INFO FrameworkServlet [http-nio-8888-exec-2] [] [] [] []: Completed initialization in 1 ms
+2024-07-06 11:20:29,856 INFO AuditFilter [http-nio-8888-exec-2] [SGYgNoD0] [0:0:0:0:0:0:0:1] [hoaipn] []: Filter executed, user=hoaipn
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+2024-07-06 11:21:30,557 INFO StartupInfoLogger [restartedMain] [] [] [] []: Starting DemoKeycloak22Application using Java 17.0.10 with PID 6006 (/Users/hoaipn/Working/Git/core/demo-keycloak22/target/classes started by hoaipn in /Users/hoaipn/Working/Git/core/demo-keycloak22)
+2024-07-06 11:21:30,560 INFO SpringApplication [restartedMain] [] [] [] []: No active profile set, falling back to 1 default profile: "default"
+2024-07-06 11:21:30,601 INFO DeferredLog [restartedMain] [] [] [] []: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-06 11:21:30,601 INFO DeferredLog [restartedMain] [] [] [] []: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-06 11:21:31,187 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat initialized with port(s): 8888 (http)
+2024-07-06 11:21:31,193 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:21:31,199 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting service [Tomcat]
+2024-07-06 11:21:31,200 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-06 11:21:31,238 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing Spring embedded WebApplicationContext
+2024-07-06 11:21:31,238 INFO ServletWebServerApplicationContext [restartedMain] [] [] [] []: Root WebApplicationContext: initialization completed in 636 ms
+2024-07-06 11:21:31,417 INFO DefaultSecurityFilterChain [restartedMain] [] [] [] []: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5974a03f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2bff2c33, org.springframework.security.web.context.SecurityContextHolderFilter@157632fc, org.springframework.security.web.header.HeaderWriterFilter@33ce4076, org.springframework.security.web.csrf.CsrfFilter@5501b79c, org.springframework.security.web.authentication.logout.LogoutFilter@1191e810, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@4d95a88b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@173b5ec7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2a647267, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4b4e1837, org.springframework.security.web.access.ExceptionTranslationFilter@2484448, org.springframework.security.web.access.intercept.AuthorizationFilter@2caed35a]
+2024-07-06 11:21:31,491 INFO OptionalLiveReloadServer [restartedMain] [] [] [] []: LiveReload server is running on port 35729
+2024-07-06 11:21:31,501 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:21:31,511 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat started on port(s): 8888 (http) with context path ''
+2024-07-06 11:21:31,518 INFO StartupInfoLogger [restartedMain] [] [] [] []: Started DemoKeycloak22Application in 1.222 seconds (process running for 1.896)
+2024-07-06 11:21:36,553 INFO DirectJDKLog [http-nio-8888-exec-1] [] [] [] []: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-06 11:21:36,553 INFO FrameworkServlet [http-nio-8888-exec-1] [] [] [] []: Initializing Servlet 'dispatcherServlet'
+2024-07-06 11:21:36,555 INFO FrameworkServlet [http-nio-8888-exec-1] [] [] [] []: Completed initialization in 1 ms
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+2024-07-06 11:22:01,242 INFO StartupInfoLogger [restartedMain] [] [] [] []: Starting DemoKeycloak22Application using Java 17.0.10 with PID 6033 (/Users/hoaipn/Working/Git/core/demo-keycloak22/target/classes started by hoaipn in /Users/hoaipn/Working/Git/core/demo-keycloak22)
+2024-07-06 11:22:01,249 INFO SpringApplication [restartedMain] [] [] [] []: No active profile set, falling back to 1 default profile: "default"
+2024-07-06 11:22:01,288 INFO DeferredLog [restartedMain] [] [] [] []: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-06 11:22:01,288 INFO DeferredLog [restartedMain] [] [] [] []: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-06 11:22:01,936 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat initialized with port(s): 8888 (http)
+2024-07-06 11:22:01,941 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:22:01,942 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting service [Tomcat]
+2024-07-06 11:22:01,942 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-06 11:22:01,971 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing Spring embedded WebApplicationContext
+2024-07-06 11:22:01,971 INFO ServletWebServerApplicationContext [restartedMain] [] [] [] []: Root WebApplicationContext: initialization completed in 682 ms
+2024-07-06 11:22:02,153 INFO DefaultSecurityFilterChain [restartedMain] [] [] [] []: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@45c91768, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@417a707b, org.springframework.security.web.context.SecurityContextHolderFilter@16237a77, org.springframework.security.web.header.HeaderWriterFilter@73975cfc, org.springframework.security.web.csrf.CsrfFilter@3b8ddc61, org.springframework.security.web.authentication.logout.LogoutFilter@3e42834d, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@78551752, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6e31bea8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6b773a15, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@11450081, org.springframework.security.web.access.ExceptionTranslationFilter@5ac9582b, org.springframework.security.web.access.intercept.AuthorizationFilter@6ad93753]
+2024-07-06 11:22:02,230 INFO OptionalLiveReloadServer [restartedMain] [] [] [] []: LiveReload server is running on port 35729
+2024-07-06 11:22:02,241 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:22:02,252 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat started on port(s): 8888 (http) with context path ''
+2024-07-06 11:22:02,259 INFO StartupInfoLogger [restartedMain] [] [] [] []: Started DemoKeycloak22Application in 1.301 seconds (process running for 1.918)
+2024-07-06 11:22:05,631 INFO DirectJDKLog [http-nio-8888-exec-2] [] [] [] []: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-06 11:22:05,632 INFO FrameworkServlet [http-nio-8888-exec-2] [] [] [] []: Initializing Servlet 'dispatcherServlet'
+2024-07-06 11:22:05,634 INFO FrameworkServlet [http-nio-8888-exec-2] [] [] [] []: Completed initialization in 1 ms
+2024-07-06 11:22:06,073 INFO LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] [] [] [] []: Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-06 11:22:07,088 INFO DirectJDKLog [Thread-5] [] [] [] []: Pausing ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:22:07,089 INFO DirectJDKLog [Thread-5] [] [] [] []: Stopping service [Tomcat]
+2024-07-06 11:22:07,090 INFO DirectJDKLog [Thread-5] [] [] [] []: Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-07-06 11:22:07,093 INFO DirectJDKLog [Thread-5] [] [] [] []: Stopping ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:22:07,096 INFO DirectJDKLog [Thread-5] [] [] [] []: Destroying ProtocolHandler ["http-nio-8888"]
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+2024-07-06 11:22:07,138 INFO StartupInfoLogger [restartedMain] [] [] [] []: Starting DemoKeycloak22Application using Java 17.0.10 with PID 6033 (/Users/hoaipn/Working/Git/core/demo-keycloak22/target/classes started by hoaipn in /Users/hoaipn/Working/Git/core/demo-keycloak22)
+2024-07-06 11:22:07,138 INFO SpringApplication [restartedMain] [] [] [] []: No active profile set, falling back to 1 default profile: "default"
+2024-07-06 11:22:07,339 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat initialized with port(s): 8888 (http)
+2024-07-06 11:22:07,340 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:22:07,341 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting service [Tomcat]
+2024-07-06 11:22:07,342 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-06 11:22:07,349 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing Spring embedded WebApplicationContext
+2024-07-06 11:22:07,349 INFO ServletWebServerApplicationContext [restartedMain] [] [] [] []: Root WebApplicationContext: initialization completed in 210 ms
+2024-07-06 11:22:07,409 INFO DefaultSecurityFilterChain [restartedMain] [] [] [] []: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@112a992d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@822b522, org.springframework.security.web.context.SecurityContextHolderFilter@40f738b0, org.springframework.security.web.header.HeaderWriterFilter@61fe0788, org.springframework.security.web.csrf.CsrfFilter@e90122a, org.springframework.security.web.authentication.logout.LogoutFilter@5cc22908, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@5c6d71c1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4e7863c6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@34da34e5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@37cad75b, org.springframework.security.web.access.ExceptionTranslationFilter@246bd66a, org.springframework.security.web.access.intercept.AuthorizationFilter@34b16cd9]
+2024-07-06 11:22:07,428 INFO OptionalLiveReloadServer [restartedMain] [] [] [] []: LiveReload server is running on port 35729
+2024-07-06 11:22:07,435 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:22:07,437 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat started on port(s): 8888 (http) with context path ''
+2024-07-06 11:22:07,440 INFO StartupInfoLogger [restartedMain] [] [] [] []: Started DemoKeycloak22Application in 0.321 seconds (process running for 7.099)
+2024-07-06 11:22:07,441 INFO ConditionEvaluationDeltaLoggingListener [restartedMain] [] [] [] []: Condition evaluation unchanged
+2024-07-06 11:22:14,045 INFO DirectJDKLog [http-nio-8888-exec-1] [] [] [] []: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-06 11:22:14,045 INFO FrameworkServlet [http-nio-8888-exec-1] [] [] [] []: Initializing Servlet 'dispatcherServlet'
+2024-07-06 11:22:14,047 INFO FrameworkServlet [http-nio-8888-exec-1] [] [] [] []: Completed initialization in 2 ms
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+2024-07-06 11:23:00,769 INFO StartupInfoLogger [restartedMain] [] [] [] []: Starting DemoKeycloak22Application using Java 17.0.10 with PID 6066 (/Users/hoaipn/Working/Git/core/demo-keycloak22/target/classes started by hoaipn in /Users/hoaipn/Working/Git/core/demo-keycloak22)
+2024-07-06 11:23:00,772 INFO SpringApplication [restartedMain] [] [] [] []: No active profile set, falling back to 1 default profile: "default"
+2024-07-06 11:23:00,825 INFO DeferredLog [restartedMain] [] [] [] []: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-06 11:23:00,826 INFO DeferredLog [restartedMain] [] [] [] []: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-06 11:23:01,358 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat initialized with port(s): 8888 (http)
+2024-07-06 11:23:01,363 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:23:01,369 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting service [Tomcat]
+2024-07-06 11:23:01,369 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-06 11:23:01,400 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing Spring embedded WebApplicationContext
+2024-07-06 11:23:01,401 INFO ServletWebServerApplicationContext [restartedMain] [] [] [] []: Root WebApplicationContext: initialization completed in 574 ms
+2024-07-06 11:23:01,577 INFO DefaultSecurityFilterChain [restartedMain] [] [] [] []: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5876981f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3fff2df9, org.springframework.security.web.context.SecurityContextHolderFilter@4397480f, org.springframework.security.web.header.HeaderWriterFilter@68f47baa, org.springframework.security.web.csrf.CsrfFilter@737c9d58, org.springframework.security.web.authentication.logout.LogoutFilter@5aba1207, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@5f236245, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@466cdf56, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1eb4417b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7b8a5109, org.springframework.security.web.access.ExceptionTranslationFilter@64b79323, org.springframework.security.web.access.intercept.AuthorizationFilter@278a8f0e]
+2024-07-06 11:23:01,669 INFO OptionalLiveReloadServer [restartedMain] [] [] [] []: LiveReload server is running on port 35729
+2024-07-06 11:23:01,679 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:23:01,689 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat started on port(s): 8888 (http) with context path ''
+2024-07-06 11:23:01,696 INFO StartupInfoLogger [restartedMain] [] [] [] []: Started DemoKeycloak22Application in 1.168 seconds (process running for 1.791)
+2024-07-06 11:23:04,614 INFO DirectJDKLog [http-nio-8888-exec-2] [] [] [] []: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-06 11:23:04,614 INFO FrameworkServlet [http-nio-8888-exec-2] [] [] [] []: Initializing Servlet 'dispatcherServlet'
+2024-07-06 11:23:04,615 INFO FrameworkServlet [http-nio-8888-exec-2] [] [] [] []: Completed initialization in 1 ms
+2024-07-06 11:23:25,529 INFO AuditFilter [http-nio-8888-exec-4] [QLj0DZKf] [0:0:0:0:0:0:0:1] [hoaipn] [/api/test]: ALOG_SRV_REQ
+2024-07-06 11:26:08,430 INFO LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] [] [] [] []: Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2024-07-06 11:26:09,462 INFO DirectJDKLog [Thread-5] [] [] [] []: Pausing ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:26:09,463 WARN DirectJDKLog [Thread-5] [] [] [] []: Failed to unlock acceptor for [http-nio-8888] because the local address was not available
+2024-07-06 11:26:09,464 INFO DirectJDKLog [Thread-5] [] [] [] []: Stopping service [Tomcat]
+2024-07-06 11:26:09,468 INFO DirectJDKLog [Thread-5] [] [] [] []: Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-07-06 11:26:09,462 ERROR DirectJDKLog [http-nio-8888-Acceptor] [] [] [] []: Socket accept failed
+java.nio.channels.AsynchronousCloseException: null
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.end(ServerSocketChannelImpl.java:376)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:399)
+	at org.apache.tomcat.util.net.NioEndpoint.serverSocketAccept(NioEndpoint.java:518)
+	at org.apache.tomcat.util.net.NioEndpoint.serverSocketAccept(NioEndpoint.java:71)
+	at org.apache.tomcat.util.net.Acceptor.run(Acceptor.java:128)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-07-06 11:26:09,475 INFO DirectJDKLog [Thread-5] [] [] [] []: Stopping ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:26:09,478 INFO DirectJDKLog [Thread-5] [] [] [] []: Destroying ProtocolHandler ["http-nio-8888"]
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+2024-07-06 11:26:09,555 INFO StartupInfoLogger [restartedMain] [] [] [] []: Starting DemoKeycloak22Application using Java 17.0.10 with PID 6066 (/Users/hoaipn/Working/Git/core/demo-keycloak22/target/classes started by hoaipn in /Users/hoaipn/Working/Git/core/demo-keycloak22)
+2024-07-06 11:26:09,555 INFO SpringApplication [restartedMain] [] [] [] []: No active profile set, falling back to 1 default profile: "default"
+2024-07-06 11:26:09,662 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat initialized with port(s): 8888 (http)
+2024-07-06 11:26:09,662 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:26:09,662 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting service [Tomcat]
+2024-07-06 11:26:09,662 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-06 11:26:09,668 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing Spring embedded WebApplicationContext
+2024-07-06 11:26:09,668 INFO ServletWebServerApplicationContext [restartedMain] [] [] [] []: Root WebApplicationContext: initialization completed in 111 ms
+2024-07-06 11:26:09,713 INFO DefaultSecurityFilterChain [restartedMain] [] [] [] []: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@baba7f2, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@609b98d4, org.springframework.security.web.context.SecurityContextHolderFilter@1cb9b9e6, org.springframework.security.web.header.HeaderWriterFilter@678bf265, org.springframework.security.web.csrf.CsrfFilter@6c3da584, org.springframework.security.web.authentication.logout.LogoutFilter@297c24c7, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@4339f94e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1d292e70, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@40fb1e13, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@fade275, org.springframework.security.web.access.ExceptionTranslationFilter@3a6cfc6a, org.springframework.security.web.access.intercept.AuthorizationFilter@65e1471d]
+2024-07-06 11:26:09,730 INFO OptionalLiveReloadServer [restartedMain] [] [] [] []: LiveReload server is running on port 35729
+2024-07-06 11:26:09,735 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:26:09,739 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat started on port(s): 8888 (http) with context path ''
+2024-07-06 11:26:09,742 INFO StartupInfoLogger [restartedMain] [] [] [] []: Started DemoKeycloak22Application in 0.204 seconds (process running for 189.842)
+2024-07-06 11:26:09,744 INFO ConditionEvaluationDeltaLoggingListener [restartedMain] [] [] [] []: Condition evaluation unchanged
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+2024-07-06 11:29:07,203 INFO StartupInfoLogger [restartedMain] [] [] [] []: Starting DemoKeycloak22Application using Java 17.0.10 with PID 6236 (/Users/hoaipn/Working/Git/core/demo-keycloak22/target/classes started by hoaipn in /Users/hoaipn/Working/Git/core/demo-keycloak22)
+2024-07-06 11:29:07,206 INFO SpringApplication [restartedMain] [] [] [] []: No active profile set, falling back to 1 default profile: "default"
+2024-07-06 11:29:07,241 INFO DeferredLog [restartedMain] [] [] [] []: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-06 11:29:07,241 INFO DeferredLog [restartedMain] [] [] [] []: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-06 11:29:07,808 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat initialized with port(s): 8888 (http)
+2024-07-06 11:29:07,813 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:29:07,814 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting service [Tomcat]
+2024-07-06 11:29:07,814 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-06 11:29:07,848 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing Spring embedded WebApplicationContext
+2024-07-06 11:29:07,848 INFO ServletWebServerApplicationContext [restartedMain] [] [] [] []: Root WebApplicationContext: initialization completed in 607 ms
+2024-07-06 11:29:08,011 INFO DefaultSecurityFilterChain [restartedMain] [] [] [] []: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3e8b6dba, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@c63c123, org.springframework.security.web.context.SecurityContextHolderFilter@38990a4e, org.springframework.security.web.header.HeaderWriterFilter@b39e7b3, org.springframework.security.web.csrf.CsrfFilter@32b8f774, org.springframework.security.web.authentication.logout.LogoutFilter@6fce4ee, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@3a5d4759, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2919a7f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3dd98daa, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5cd42879, org.springframework.security.web.access.ExceptionTranslationFilter@264ccebf, org.springframework.security.web.access.intercept.AuthorizationFilter@3d06fd8]
+2024-07-06 11:29:08,086 INFO OptionalLiveReloadServer [restartedMain] [] [] [] []: LiveReload server is running on port 35729
+2024-07-06 11:29:08,096 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:29:08,107 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat started on port(s): 8888 (http) with context path ''
+2024-07-06 11:29:08,114 INFO StartupInfoLogger [restartedMain] [] [] [] []: Started DemoKeycloak22Application in 1.16 seconds (process running for 1.825)
+2024-07-06 11:29:11,099 INFO DirectJDKLog [http-nio-8888-exec-1] [] [] [] []: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-06 11:29:11,099 INFO FrameworkServlet [http-nio-8888-exec-1] [] [] [] []: Initializing Servlet 'dispatcherServlet'
+2024-07-06 11:29:11,101 INFO FrameworkServlet [http-nio-8888-exec-1] [] [] [] []: Completed initialization in 2 ms
+2024-07-06 11:29:11,299 INFO AuditFilter [http-nio-8888-exec-1] [bvsRKIgL] [0:0:0:0:0:0:0:1] [hoaipn] [/api/test]: ALOG_SRV_REQ, header={User-Agent=PostmanRuntime/7.39.0, Host=localhost:8888}
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+2024-07-06 11:32:05,407 INFO StartupInfoLogger [restartedMain] [] [] [] []: Starting DemoKeycloak22Application using Java 17.0.10 with PID 6332 (/Users/hoaipn/Working/Git/core/demo-keycloak22/target/classes started by hoaipn in /Users/hoaipn/Working/Git/core/demo-keycloak22)
+2024-07-06 11:32:05,409 INFO SpringApplication [restartedMain] [] [] [] []: No active profile set, falling back to 1 default profile: "default"
+2024-07-06 11:32:05,459 INFO DeferredLog [restartedMain] [] [] [] []: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-06 11:32:05,460 INFO DeferredLog [restartedMain] [] [] [] []: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-06 11:32:06,016 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat initialized with port(s): 8888 (http)
+2024-07-06 11:32:06,021 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:32:06,022 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting service [Tomcat]
+2024-07-06 11:32:06,023 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-06 11:32:06,063 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing Spring embedded WebApplicationContext
+2024-07-06 11:32:06,063 INFO ServletWebServerApplicationContext [restartedMain] [] [] [] []: Root WebApplicationContext: initialization completed in 603 ms
+2024-07-06 11:32:06,251 INFO DefaultSecurityFilterChain [restartedMain] [] [] [] []: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@38e86f55, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2c0536f1, org.springframework.security.web.context.SecurityContextHolderFilter@7196c442, org.springframework.security.web.header.HeaderWriterFilter@295ecd8f, org.springframework.security.web.csrf.CsrfFilter@eb42310, org.springframework.security.web.authentication.logout.LogoutFilter@299be619, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@32d8899f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@c1cfe7d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3fef1088, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5ae7d69f, org.springframework.security.web.access.ExceptionTranslationFilter@22c8dd28, org.springframework.security.web.access.intercept.AuthorizationFilter@2a1178ae]
+2024-07-06 11:32:06,326 INFO OptionalLiveReloadServer [restartedMain] [] [] [] []: LiveReload server is running on port 35729
+2024-07-06 11:32:06,335 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:32:06,346 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat started on port(s): 8888 (http) with context path ''
+2024-07-06 11:32:06,353 INFO StartupInfoLogger [restartedMain] [] [] [] []: Started DemoKeycloak22Application in 1.189 seconds (process running for 1.759)
+2024-07-06 11:32:12,536 INFO DirectJDKLog [http-nio-8888-exec-1] [] [] [] []: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-06 11:32:12,537 INFO FrameworkServlet [http-nio-8888-exec-1] [] [] [] []: Initializing Servlet 'dispatcherServlet'
+2024-07-06 11:32:12,538 INFO FrameworkServlet [http-nio-8888-exec-1] [] [] [] []: Completed initialization in 1 ms
+2024-07-06 11:32:42,304 INFO AuditFilter [http-nio-8888-exec-4] [11911J8T] [0:0:0:0:0:0:0:1] [hoaipn] [/api/test]: ALOG_SRV_REQ, request=, header={User-Agent=PostmanRuntime/7.39.0, Host=localhost:8888}
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+2024-07-06 11:32:54,624 INFO StartupInfoLogger [restartedMain] [] [] [] []: Starting DemoKeycloak22Application using Java 17.0.10 with PID 6357 (/Users/hoaipn/Working/Git/core/demo-keycloak22/target/classes started by hoaipn in /Users/hoaipn/Working/Git/core/demo-keycloak22)
+2024-07-06 11:32:54,630 INFO SpringApplication [restartedMain] [] [] [] []: No active profile set, falling back to 1 default profile: "default"
+2024-07-06 11:32:54,663 INFO DeferredLog [restartedMain] [] [] [] []: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-06 11:32:54,664 INFO DeferredLog [restartedMain] [] [] [] []: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-06 11:32:55,211 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat initialized with port(s): 8888 (http)
+2024-07-06 11:32:55,216 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:32:55,217 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting service [Tomcat]
+2024-07-06 11:32:55,217 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-06 11:32:55,249 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing Spring embedded WebApplicationContext
+2024-07-06 11:32:55,249 INFO ServletWebServerApplicationContext [restartedMain] [] [] [] []: Root WebApplicationContext: initialization completed in 585 ms
+2024-07-06 11:32:55,428 INFO DefaultSecurityFilterChain [restartedMain] [] [] [] []: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7cf6898a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@103bb20d, org.springframework.security.web.context.SecurityContextHolderFilter@2132b928, org.springframework.security.web.header.HeaderWriterFilter@504de20d, org.springframework.security.web.csrf.CsrfFilter@47d62d5d, org.springframework.security.web.authentication.logout.LogoutFilter@2fd94b00, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@73cf1fe5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@49822640, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@51696c7d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1b00b7d8, org.springframework.security.web.access.ExceptionTranslationFilter@3d28359c, org.springframework.security.web.access.intercept.AuthorizationFilter@2a9693ad]
+2024-07-06 11:32:55,501 INFO OptionalLiveReloadServer [restartedMain] [] [] [] []: LiveReload server is running on port 35729
+2024-07-06 11:32:55,510 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:32:55,521 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat started on port(s): 8888 (http) with context path ''
+2024-07-06 11:32:55,527 INFO StartupInfoLogger [restartedMain] [] [] [] []: Started DemoKeycloak22Application in 1.137 seconds (process running for 1.748)
+2024-07-06 11:33:03,064 INFO DirectJDKLog [http-nio-8888-exec-2] [] [] [] []: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-06 11:33:03,064 INFO FrameworkServlet [http-nio-8888-exec-2] [] [] [] []: Initializing Servlet 'dispatcherServlet'
+2024-07-06 11:33:03,066 INFO FrameworkServlet [http-nio-8888-exec-2] [] [] [] []: Completed initialization in 2 ms
+2024-07-06 11:33:03,226 INFO AuditFilter [http-nio-8888-exec-2] [70hGNray] [0:0:0:0:0:0:0:1] [hoaipn] [/api/test]: ALOG_SRV_REQ, request=, header={User-Agent=PostmanRuntime/7.39.0, Host=localhost:8888}
+2024-07-06 11:34:26,632 INFO LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] [] [] [] []: Restarting due to 2 class path changes (0 additions, 2 deletions, 0 modifications)
+2024-07-06 11:34:26,672 INFO DirectJDKLog [Thread-5] [] [] [] []: Pausing ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:34:26,672 INFO DirectJDKLog [Thread-5] [] [] [] []: Stopping service [Tomcat]
+2024-07-06 11:34:26,673 INFO DirectJDKLog [Thread-5] [] [] [] []: Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-07-06 11:34:26,680 INFO DirectJDKLog [Thread-5] [] [] [] []: Stopping ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:34:26,685 INFO DirectJDKLog [Thread-5] [] [] [] []: Destroying ProtocolHandler ["http-nio-8888"]
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+2024-07-06 11:34:26,755 INFO StartupInfoLogger [restartedMain] [] [] [] []: Starting DemoKeycloak22Application using Java 17.0.10 with PID 6357 (/Users/hoaipn/Working/Git/core/demo-keycloak22/target/classes started by hoaipn in /Users/hoaipn/Working/Git/core/demo-keycloak22)
+2024-07-06 11:34:26,756 INFO SpringApplication [restartedMain] [] [] [] []: No active profile set, falling back to 1 default profile: "default"
+2024-07-06 11:34:26,937 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat initialized with port(s): 8888 (http)
+2024-07-06 11:34:26,938 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:34:26,938 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting service [Tomcat]
+2024-07-06 11:34:26,938 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-06 11:34:26,944 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing Spring embedded WebApplicationContext
+2024-07-06 11:34:26,944 INFO ServletWebServerApplicationContext [restartedMain] [] [] [] []: Root WebApplicationContext: initialization completed in 186 ms
+2024-07-06 11:34:26,996 INFO DefaultSecurityFilterChain [restartedMain] [] [] [] []: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@508642e3, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@564a2788, org.springframework.security.web.context.SecurityContextHolderFilter@6e34c78c, org.springframework.security.web.header.HeaderWriterFilter@315df004, org.springframework.security.web.csrf.CsrfFilter@47f929e7, org.springframework.security.web.authentication.logout.LogoutFilter@782b99f, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@42da5566, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@608c7dbc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@114110b0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@238d8eb2, org.springframework.security.web.access.ExceptionTranslationFilter@4756cd50, org.springframework.security.web.access.intercept.AuthorizationFilter@1dbd01e2]
+2024-07-06 11:34:27,019 INFO OptionalLiveReloadServer [restartedMain] [] [] [] []: LiveReload server is running on port 35729
+2024-07-06 11:34:27,026 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:34:27,028 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat started on port(s): 8888 (http) with context path ''
+2024-07-06 11:34:27,032 INFO StartupInfoLogger [restartedMain] [] [] [] []: Started DemoKeycloak22Application in 0.303 seconds (process running for 93.255)
+2024-07-06 11:34:27,033 INFO ConditionEvaluationDeltaLoggingListener [restartedMain] [] [] [] []: Condition evaluation unchanged
+2024-07-06 11:34:28,435 INFO LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] [] [] [] []: Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
+2024-07-06 11:34:29,442 INFO DirectJDKLog [Thread-7] [] [] [] []: Pausing ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:34:29,443 INFO DirectJDKLog [Thread-7] [] [] [] []: Stopping service [Tomcat]
+2024-07-06 11:34:29,444 INFO DirectJDKLog [Thread-7] [] [] [] []: Stopping ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:34:29,447 INFO DirectJDKLog [Thread-7] [] [] [] []: Destroying ProtocolHandler ["http-nio-8888"]
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+2024-07-06 11:34:29,518 INFO StartupInfoLogger [restartedMain] [] [] [] []: Starting DemoKeycloak22Application using Java 17.0.10 with PID 6357 (/Users/hoaipn/Working/Git/core/demo-keycloak22/target/classes started by hoaipn in /Users/hoaipn/Working/Git/core/demo-keycloak22)
+2024-07-06 11:34:29,518 INFO SpringApplication [restartedMain] [] [] [] []: No active profile set, falling back to 1 default profile: "default"
+2024-07-06 11:34:29,623 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat initialized with port(s): 8888 (http)
+2024-07-06 11:34:29,624 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:34:29,624 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting service [Tomcat]
+2024-07-06 11:34:29,624 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-06 11:34:29,629 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing Spring embedded WebApplicationContext
+2024-07-06 11:34:29,629 INFO ServletWebServerApplicationContext [restartedMain] [] [] [] []: Root WebApplicationContext: initialization completed in 109 ms
+2024-07-06 11:34:29,668 INFO DefaultSecurityFilterChain [restartedMain] [] [] [] []: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7193623d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@77addf72, org.springframework.security.web.context.SecurityContextHolderFilter@324971f2, org.springframework.security.web.header.HeaderWriterFilter@44d86364, org.springframework.security.web.csrf.CsrfFilter@3741178b, org.springframework.security.web.authentication.logout.LogoutFilter@48902f36, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@38331392, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@d0bd57f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@36eb98ea, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2c328933, org.springframework.security.web.access.ExceptionTranslationFilter@2b220f23, org.springframework.security.web.access.intercept.AuthorizationFilter@71a54c38]
+2024-07-06 11:34:29,685 INFO OptionalLiveReloadServer [restartedMain] [] [] [] []: LiveReload server is running on port 35729
+2024-07-06 11:34:29,693 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:34:29,695 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat started on port(s): 8888 (http) with context path ''
+2024-07-06 11:34:29,697 INFO StartupInfoLogger [restartedMain] [] [] [] []: Started DemoKeycloak22Application in 0.199 seconds (process running for 95.921)
+2024-07-06 11:34:29,698 INFO ConditionEvaluationDeltaLoggingListener [restartedMain] [] [] [] []: Condition evaluation unchanged
+2024-07-06 11:34:40,162 INFO LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] [] [] [] []: Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2024-07-06 11:34:41,169 INFO DirectJDKLog [Thread-11] [] [] [] []: Pausing ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:34:41,170 WARN DirectJDKLog [Thread-11] [] [] [] []: Failed to unlock acceptor for [http-nio-8888] because the local address was not available
+2024-07-06 11:34:41,170 INFO DirectJDKLog [Thread-11] [] [] [] []: Stopping service [Tomcat]
+2024-07-06 11:34:41,172 INFO DirectJDKLog [Thread-11] [] [] [] []: Stopping ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:34:41,174 INFO DirectJDKLog [Thread-11] [] [] [] []: Destroying ProtocolHandler ["http-nio-8888"]
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+2024-07-06 11:34:41,225 INFO StartupInfoLogger [restartedMain] [] [] [] []: Starting DemoKeycloak22Application using Java 17.0.10 with PID 6357 (/Users/hoaipn/Working/Git/core/demo-keycloak22/target/classes started by hoaipn in /Users/hoaipn/Working/Git/core/demo-keycloak22)
+2024-07-06 11:34:41,225 INFO SpringApplication [restartedMain] [] [] [] []: No active profile set, falling back to 1 default profile: "default"
+2024-07-06 11:34:41,314 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat initialized with port(s): 8888 (http)
+2024-07-06 11:34:41,314 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:34:41,314 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting service [Tomcat]
+2024-07-06 11:34:41,315 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-06 11:34:41,321 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing Spring embedded WebApplicationContext
+2024-07-06 11:34:41,321 INFO ServletWebServerApplicationContext [restartedMain] [] [] [] []: Root WebApplicationContext: initialization completed in 95 ms
+2024-07-06 11:34:41,352 INFO DefaultSecurityFilterChain [restartedMain] [] [] [] []: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4c4447b7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@27013284, org.springframework.security.web.context.SecurityContextHolderFilter@656b3204, org.springframework.security.web.header.HeaderWriterFilter@4f94b6c1, org.springframework.security.web.csrf.CsrfFilter@1ed36bbf, org.springframework.security.web.authentication.logout.LogoutFilter@66e0712b, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@2948029c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@60603385, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@30ef090b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7b29de34, org.springframework.security.web.access.ExceptionTranslationFilter@51d031eb, org.springframework.security.web.access.intercept.AuthorizationFilter@4f126cdc]
+2024-07-06 11:34:41,363 INFO OptionalLiveReloadServer [restartedMain] [] [] [] []: LiveReload server is running on port 35729
+2024-07-06 11:34:41,370 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:34:41,371 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat started on port(s): 8888 (http) with context path ''
+2024-07-06 11:34:41,373 INFO StartupInfoLogger [restartedMain] [] [] [] []: Started DemoKeycloak22Application in 0.162 seconds (process running for 107.597)
+2024-07-06 11:34:41,374 INFO ConditionEvaluationDeltaLoggingListener [restartedMain] [] [] [] []: Condition evaluation unchanged
+2024-07-06 11:34:42,778 INFO LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] [] [] [] []: Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-07-06 11:34:43,796 INFO DirectJDKLog [Thread-15] [] [] [] []: Pausing ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:34:43,796 WARN DirectJDKLog [Thread-15] [] [] [] []: Failed to unlock acceptor for [http-nio-8888] because the local address was not available
+2024-07-06 11:34:43,797 INFO DirectJDKLog [Thread-15] [] [] [] []: Stopping service [Tomcat]
+2024-07-06 11:34:43,799 INFO DirectJDKLog [Thread-15] [] [] [] []: Stopping ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:34:43,801 INFO DirectJDKLog [Thread-15] [] [] [] []: Destroying ProtocolHandler ["http-nio-8888"]
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+2024-07-06 11:34:43,850 INFO StartupInfoLogger [restartedMain] [] [] [] []: Starting DemoKeycloak22Application using Java 17.0.10 with PID 6357 (/Users/hoaipn/Working/Git/core/demo-keycloak22/target/classes started by hoaipn in /Users/hoaipn/Working/Git/core/demo-keycloak22)
+2024-07-06 11:34:43,851 INFO SpringApplication [restartedMain] [] [] [] []: No active profile set, falling back to 1 default profile: "default"
+2024-07-06 11:34:43,927 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat initialized with port(s): 8888 (http)
+2024-07-06 11:34:43,928 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:34:43,928 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting service [Tomcat]
+2024-07-06 11:34:43,928 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-06 11:34:43,933 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing Spring embedded WebApplicationContext
+2024-07-06 11:34:43,934 INFO ServletWebServerApplicationContext [restartedMain] [] [] [] []: Root WebApplicationContext: initialization completed in 83 ms
+2024-07-06 11:34:43,964 INFO DefaultSecurityFilterChain [restartedMain] [] [] [] []: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@76b549bd, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6ea0cc7a, org.springframework.security.web.context.SecurityContextHolderFilter@49eac94e, org.springframework.security.web.header.HeaderWriterFilter@3713ad9, org.springframework.security.web.csrf.CsrfFilter@74e0fffb, org.springframework.security.web.authentication.logout.LogoutFilter@7833723e, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@15f47bbf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3a86f8af, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6da12fa7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5487779d, org.springframework.security.web.access.ExceptionTranslationFilter@48f3e078, org.springframework.security.web.access.intercept.AuthorizationFilter@11457b08]
+2024-07-06 11:34:43,975 INFO OptionalLiveReloadServer [restartedMain] [] [] [] []: LiveReload server is running on port 35729
+2024-07-06 11:34:43,981 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:34:43,983 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat started on port(s): 8888 (http) with context path ''
+2024-07-06 11:34:43,985 INFO StartupInfoLogger [restartedMain] [] [] [] []: Started DemoKeycloak22Application in 0.15 seconds (process running for 110.209)
+2024-07-06 11:34:43,986 INFO ConditionEvaluationDeltaLoggingListener [restartedMain] [] [] [] []: Condition evaluation unchanged
+2024-07-06 11:35:26,702 INFO LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] [] [] [] []: Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2024-07-06 11:35:26,707 INFO DirectJDKLog [Thread-19] [] [] [] []: Pausing ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:35:26,708 INFO DirectJDKLog [Thread-19] [] [] [] []: Stopping service [Tomcat]
+2024-07-06 11:35:26,709 INFO DirectJDKLog [Thread-19] [] [] [] []: Stopping ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:35:26,710 INFO DirectJDKLog [Thread-19] [] [] [] []: Destroying ProtocolHandler ["http-nio-8888"]
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+2024-07-06 11:35:26,754 INFO StartupInfoLogger [restartedMain] [] [] [] []: Starting DemoKeycloak22Application using Java 17.0.10 with PID 6357 (/Users/hoaipn/Working/Git/core/demo-keycloak22/target/classes started by hoaipn in /Users/hoaipn/Working/Git/core/demo-keycloak22)
+2024-07-06 11:35:26,755 INFO SpringApplication [restartedMain] [] [] [] []: No active profile set, falling back to 1 default profile: "default"
+2024-07-06 11:35:26,862 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat initialized with port(s): 8888 (http)
+2024-07-06 11:35:26,863 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:35:26,863 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting service [Tomcat]
+2024-07-06 11:35:26,863 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-06 11:35:26,870 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing Spring embedded WebApplicationContext
+2024-07-06 11:35:26,870 INFO ServletWebServerApplicationContext [restartedMain] [] [] [] []: Root WebApplicationContext: initialization completed in 114 ms
+2024-07-06 11:35:26,904 INFO DefaultSecurityFilterChain [restartedMain] [] [] [] []: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@55076203, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@34b46401, org.springframework.security.web.context.SecurityContextHolderFilter@2da70e72, org.springframework.security.web.header.HeaderWriterFilter@7db59a82, org.springframework.security.web.csrf.CsrfFilter@5cfaf99a, org.springframework.security.web.authentication.logout.LogoutFilter@1a6ea8e8, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@3a41b44b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@261a1475, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5e9f032a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@75403968, org.springframework.security.web.access.ExceptionTranslationFilter@2b0a6ee2, org.springframework.security.web.access.intercept.AuthorizationFilter@4a817681]
+2024-07-06 11:35:26,921 INFO OptionalLiveReloadServer [restartedMain] [] [] [] []: LiveReload server is running on port 35729
+2024-07-06 11:35:26,926 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:35:26,928 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat started on port(s): 8888 (http) with context path ''
+2024-07-06 11:35:26,930 INFO StartupInfoLogger [restartedMain] [] [] [] []: Started DemoKeycloak22Application in 0.192 seconds (process running for 153.155)
+2024-07-06 11:35:26,932 INFO ConditionEvaluationDeltaLoggingListener [restartedMain] [] [] [] []: Condition evaluation unchanged
+2024-07-06 11:35:28,334 INFO LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] [] [] [] []: Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-07-06 11:35:29,340 INFO DirectJDKLog [Thread-23] [] [] [] []: Pausing ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:35:29,340 INFO DirectJDKLog [Thread-23] [] [] [] []: Stopping service [Tomcat]
+2024-07-06 11:35:29,341 INFO DirectJDKLog [Thread-23] [] [] [] []: Stopping ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:35:29,343 INFO DirectJDKLog [Thread-23] [] [] [] []: Destroying ProtocolHandler ["http-nio-8888"]
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+2024-07-06 11:35:29,386 INFO StartupInfoLogger [restartedMain] [] [] [] []: Starting DemoKeycloak22Application using Java 17.0.10 with PID 6357 (/Users/hoaipn/Working/Git/core/demo-keycloak22/target/classes started by hoaipn in /Users/hoaipn/Working/Git/core/demo-keycloak22)
+2024-07-06 11:35:29,387 INFO SpringApplication [restartedMain] [] [] [] []: No active profile set, falling back to 1 default profile: "default"
+2024-07-06 11:35:29,465 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat initialized with port(s): 8888 (http)
+2024-07-06 11:35:29,466 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:35:29,466 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting service [Tomcat]
+2024-07-06 11:35:29,466 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-06 11:35:29,470 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing Spring embedded WebApplicationContext
+2024-07-06 11:35:29,470 INFO ServletWebServerApplicationContext [restartedMain] [] [] [] []: Root WebApplicationContext: initialization completed in 82 ms
+2024-07-06 11:35:29,501 INFO DefaultSecurityFilterChain [restartedMain] [] [] [] []: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1fb9ef3f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@58510fc6, org.springframework.security.web.context.SecurityContextHolderFilter@2941e4d5, org.springframework.security.web.header.HeaderWriterFilter@32bd425a, org.springframework.security.web.csrf.CsrfFilter@57c0cd03, org.springframework.security.web.authentication.logout.LogoutFilter@15285308, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@48de453f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@78388c2b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6b9e5e57, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2a052185, org.springframework.security.web.access.ExceptionTranslationFilter@18b17093, org.springframework.security.web.access.intercept.AuthorizationFilter@30b843da]
+2024-07-06 11:35:29,515 INFO OptionalLiveReloadServer [restartedMain] [] [] [] []: LiveReload server is running on port 35729
+2024-07-06 11:35:29,520 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:35:29,521 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat started on port(s): 8888 (http) with context path ''
+2024-07-06 11:35:29,524 INFO StartupInfoLogger [restartedMain] [] [] [] []: Started DemoKeycloak22Application in 0.156 seconds (process running for 155.749)
+2024-07-06 11:35:29,524 INFO ConditionEvaluationDeltaLoggingListener [restartedMain] [] [] [] []: Condition evaluation unchanged
+2024-07-06 11:37:48,001 INFO LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] [] [] [] []: Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2024-07-06 11:37:48,014 INFO DirectJDKLog [Thread-27] [] [] [] []: Pausing ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:37:48,015 INFO DirectJDKLog [Thread-27] [] [] [] []: Stopping service [Tomcat]
+2024-07-06 11:37:48,018 INFO DirectJDKLog [Thread-27] [] [] [] []: Stopping ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:37:48,020 INFO DirectJDKLog [Thread-27] [] [] [] []: Destroying ProtocolHandler ["http-nio-8888"]
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+2024-07-06 11:37:48,093 INFO StartupInfoLogger [restartedMain] [] [] [] []: Starting DemoKeycloak22Application using Java 17.0.10 with PID 6357 (/Users/hoaipn/Working/Git/core/demo-keycloak22/target/classes started by hoaipn in /Users/hoaipn/Working/Git/core/demo-keycloak22)
+2024-07-06 11:37:48,093 INFO SpringApplication [restartedMain] [] [] [] []: No active profile set, falling back to 1 default profile: "default"
+2024-07-06 11:37:48,227 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat initialized with port(s): 8888 (http)
+2024-07-06 11:37:48,227 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:37:48,228 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting service [Tomcat]
+2024-07-06 11:37:48,228 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-06 11:37:48,234 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing Spring embedded WebApplicationContext
+2024-07-06 11:37:48,234 INFO ServletWebServerApplicationContext [restartedMain] [] [] [] []: Root WebApplicationContext: initialization completed in 139 ms
+2024-07-06 11:37:48,275 INFO DefaultSecurityFilterChain [restartedMain] [] [] [] []: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@671a0971, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4866e6bc, org.springframework.security.web.context.SecurityContextHolderFilter@11e9d3dc, org.springframework.security.web.header.HeaderWriterFilter@15e70174, org.springframework.security.web.csrf.CsrfFilter@6818821d, org.springframework.security.web.authentication.logout.LogoutFilter@65520e31, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@12ccae9f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3dcdb396, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@17bb02b3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2129c337, org.springframework.security.web.access.ExceptionTranslationFilter@508f5a76, org.springframework.security.web.access.intercept.AuthorizationFilter@7a32628d]
+2024-07-06 11:37:48,290 INFO OptionalLiveReloadServer [restartedMain] [] [] [] []: LiveReload server is running on port 35729
+2024-07-06 11:37:48,299 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:37:48,300 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat started on port(s): 8888 (http) with context path ''
+2024-07-06 11:37:48,303 INFO StartupInfoLogger [restartedMain] [] [] [] []: Started DemoKeycloak22Application in 0.234 seconds (process running for 294.532)
+2024-07-06 11:37:48,304 INFO ConditionEvaluationDeltaLoggingListener [restartedMain] [] [] [] []: Condition evaluation unchanged
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+2024-07-06 11:38:44,627 INFO StartupInfoLogger [restartedMain] [] [] [] []: Starting DemoKeycloak22Application using Java 17.0.10 with PID 6535 (/Users/hoaipn/Working/Git/core/demo-keycloak22/target/classes started by hoaipn in /Users/hoaipn/Working/Git/core/demo-keycloak22)
+2024-07-06 11:38:44,629 INFO SpringApplication [restartedMain] [] [] [] []: No active profile set, falling back to 1 default profile: "default"
+2024-07-06 11:38:44,667 INFO DeferredLog [restartedMain] [] [] [] []: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-06 11:38:44,668 INFO DeferredLog [restartedMain] [] [] [] []: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-06 11:38:45,275 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat initialized with port(s): 8888 (http)
+2024-07-06 11:38:45,279 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:38:45,280 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting service [Tomcat]
+2024-07-06 11:38:45,281 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-06 11:38:45,308 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing Spring embedded WebApplicationContext
+2024-07-06 11:38:45,308 INFO ServletWebServerApplicationContext [restartedMain] [] [] [] []: Root WebApplicationContext: initialization completed in 640 ms
+2024-07-06 11:38:45,607 INFO DefaultSecurityFilterChain [restartedMain] [] [] [] []: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@426f1d5e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6684ae93, org.springframework.security.web.context.SecurityContextHolderFilter@356e6bef, org.springframework.security.web.header.HeaderWriterFilter@2693af5a, org.springframework.security.web.csrf.CsrfFilter@24ab098a, org.springframework.security.web.authentication.logout.LogoutFilter@3461d4e3, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@60bc264, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@707c12ed, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@19244dd0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3ec458c5, org.springframework.security.web.access.ExceptionTranslationFilter@7d362cdd, org.springframework.security.web.access.intercept.AuthorizationFilter@5e75cdf7]
+2024-07-06 11:38:45,704 INFO OptionalLiveReloadServer [restartedMain] [] [] [] []: LiveReload server is running on port 35729
+2024-07-06 11:38:45,717 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting ProtocolHandler ["http-nio-8888"]
+2024-07-06 11:38:45,731 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat started on port(s): 8888 (http) with context path ''
+2024-07-06 11:38:45,739 INFO StartupInfoLogger [restartedMain] [] [] [] []: Started DemoKeycloak22Application in 1.334 seconds (process running for 1.916)
+2024-07-06 11:38:46,627 INFO DirectJDKLog [http-nio-8888-exec-2] [] [] [] []: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-06 11:38:46,628 INFO FrameworkServlet [http-nio-8888-exec-2] [] [] [] []: Initializing Servlet 'dispatcherServlet'
+2024-07-06 11:38:46,630 INFO FrameworkServlet [http-nio-8888-exec-2] [] [] [] []: Completed initialization in 2 ms
+2024-07-06 11:39:11,878 INFO AuditFilter [http-nio-8888-exec-3] [j22jB7k3] [0:0:0:0:0:0:0:1] [hoaipn] [/api/test]: ALOG_SRV_REQ, request=, header={User-Agent=PostmanRuntime/7.39.0, Host=localhost:8888, Method=GET}
+2024-07-06 11:40:13,810 INFO AuditFilter [http-nio-8888-exec-5] [Vj6YU6Ii] [0:0:0:0:0:0:0:1] [hoaipn] [/api/test]: ALOG_SRV_REQ, request=, header={User-Agent=PostmanRuntime/7.39.0, Host=localhost:8888, Method=GET}
+2024-07-06 11:40:39,184 INFO AuditFilter [http-nio-8888-exec-7] [jcTNd9sX] [0:0:0:0:0:0:0:1] [hoaipn] [/api/test/update]: ALOG_SRV_REQ, request={    "name": "HoaiPN",    "age": 39}, header={User-Agent=PostmanRuntime/7.39.0, Host=localhost:8888, Method=GET}
+2024-07-06 11:40:39,190 WARN AbstractHandlerExceptionResolver [http-nio-8888-exec-7] [jcTNd9sX] [0:0:0:0:0:0:0:1] [hoaipn] [/api/test/update]: Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2024-07-06 11:40:46,350 INFO AuditFilter [http-nio-8888-exec-8] [AMKvz1ZJ] [0:0:0:0:0:0:0:1] [hoaipn] [/api/test/update]: ALOG_SRV_REQ, request={    "name": "HoaiPN",    "age": 39}, header={User-Agent=PostmanRuntime/7.39.0, Host=localhost:8888, Method=POST}
+2024-07-06 11:40:46,359 WARN AbstractHandlerExceptionResolver [http-nio-8888-exec-8] [AMKvz1ZJ] [0:0:0:0:0:0:0:1] [hoaipn] [/api/test/update]: Resolved [org.springframework.http.converter.HttpMessageNotReadableException: I/O error while reading input message]
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+2024-07-06 13:54:12,120 INFO StartupInfoLogger [restartedMain] [] [] [] []: Starting DemoKeycloak22Application using Java 17.0.10 with PID 6985 (/Users/hoaipn/Working/Git/core/demo-keycloak22/target/classes started by hoaipn in /Users/hoaipn/Working/Git/core/demo-keycloak22)
+2024-07-06 13:54:12,122 INFO SpringApplication [restartedMain] [] [] [] []: No active profile set, falling back to 1 default profile: "default"
+2024-07-06 13:54:12,161 INFO DeferredLog [restartedMain] [] [] [] []: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-06 13:54:12,162 INFO DeferredLog [restartedMain] [] [] [] []: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-06 13:54:13,018 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat initialized with port(s): 8888 (http)
+2024-07-06 13:54:13,025 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing ProtocolHandler ["http-nio-8888"]
+2024-07-06 13:54:13,027 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting service [Tomcat]
+2024-07-06 13:54:13,027 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-06 13:54:13,065 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing Spring embedded WebApplicationContext
+2024-07-06 13:54:13,065 INFO ServletWebServerApplicationContext [restartedMain] [] [] [] []: Root WebApplicationContext: initialization completed in 902 ms
+2024-07-06 13:54:13,283 INFO DefaultSecurityFilterChain [restartedMain] [] [] [] []: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7d14a0d3, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@14ddd462, org.springframework.security.web.context.SecurityContextHolderFilter@519c5e79, org.springframework.security.web.header.HeaderWriterFilter@3a9086bb, org.springframework.security.web.csrf.CsrfFilter@1bec5c72, org.springframework.security.web.authentication.logout.LogoutFilter@494fd620, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@16723d07, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2bd19efe, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@636a32ed, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@134049fb, org.springframework.security.web.access.ExceptionTranslationFilter@f318979, org.springframework.security.web.access.intercept.AuthorizationFilter@1d5fa35]
+2024-07-06 13:54:13,358 INFO OptionalLiveReloadServer [restartedMain] [] [] [] []: LiveReload server is running on port 35729
+2024-07-06 13:54:13,366 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting ProtocolHandler ["http-nio-8888"]
+2024-07-06 13:54:13,377 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat started on port(s): 8888 (http) with context path ''
+2024-07-06 13:54:13,383 INFO StartupInfoLogger [restartedMain] [] [] [] []: Started DemoKeycloak22Application in 1.553 seconds (process running for 2.378)
+2024-07-06 13:54:42,797 INFO DirectJDKLog [http-nio-8888-exec-1] [] [] [] []: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-06 13:54:42,797 INFO FrameworkServlet [http-nio-8888-exec-1] [] [] [] []: Initializing Servlet 'dispatcherServlet'
+2024-07-06 13:54:42,799 INFO FrameworkServlet [http-nio-8888-exec-1] [] [] [] []: Completed initialization in 2 ms
+2024-07-06 13:55:15,048 INFO AuditFilter [http-nio-8888-exec-4] [IykvMpvJ] [0:0:0:0:0:0:0:1] [hoaipn] [/api/test]: ALOG_SRV_REQ, request=, header={User-Agent=PostmanRuntime/7.39.0, Host=localhost:8888, Method=GET}
+2024-07-06 13:55:17,863 INFO AuditFilter [http-nio-8888-exec-5] [L3Ukshpq] [0:0:0:0:0:0:0:1] [hoaipn] [/api/test/update]: ALOG_SRV_REQ, request={    "name": "HoaiPN",    "age": 39}, header={User-Agent=PostmanRuntime/7.39.0, Host=localhost:8888, Method=POST}
+2024-07-06 13:55:17,884 WARN AbstractHandlerExceptionResolver [http-nio-8888-exec-5] [L3Ukshpq] [0:0:0:0:0:0:0:1] [hoaipn] [/api/test/update]: Resolved [org.springframework.http.converter.HttpMessageNotReadableException: I/O error while reading input message]
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+2024-07-06 13:56:45,276 INFO StartupInfoLogger [restartedMain] [] [] [] []: Starting DemoKeycloak22Application using Java 17.0.10 with PID 7046 (/Users/hoaipn/Working/Git/core/demo-keycloak22/target/classes started by hoaipn in /Users/hoaipn/Working/Git/core/demo-keycloak22)
+2024-07-06 13:56:45,278 INFO SpringApplication [restartedMain] [] [] [] []: No active profile set, falling back to 1 default profile: "default"
+2024-07-06 13:56:45,328 INFO DeferredLog [restartedMain] [] [] [] []: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-06 13:56:45,328 INFO DeferredLog [restartedMain] [] [] [] []: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-06 13:56:45,869 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat initialized with port(s): 8888 (http)
+2024-07-06 13:56:45,874 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing ProtocolHandler ["http-nio-8888"]
+2024-07-06 13:56:45,875 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting service [Tomcat]
+2024-07-06 13:56:45,875 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-06 13:56:45,901 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing Spring embedded WebApplicationContext
+2024-07-06 13:56:45,901 INFO ServletWebServerApplicationContext [restartedMain] [] [] [] []: Root WebApplicationContext: initialization completed in 572 ms
+2024-07-06 13:56:46,079 INFO DefaultSecurityFilterChain [restartedMain] [] [] [] []: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@ffaa3c3, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6a4ff7b3, org.springframework.security.web.context.SecurityContextHolderFilter@1fbccd1f, org.springframework.security.web.header.HeaderWriterFilter@3bc7eb86, org.springframework.security.web.csrf.CsrfFilter@b99c5c4, org.springframework.security.web.authentication.logout.LogoutFilter@38457160, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@6e73440a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3d88ff7f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@294c2ab7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1ee8ade4, org.springframework.security.web.access.ExceptionTranslationFilter@54811a03, org.springframework.security.web.access.intercept.AuthorizationFilter@160db624]
+2024-07-06 13:56:46,152 INFO OptionalLiveReloadServer [restartedMain] [] [] [] []: LiveReload server is running on port 35729
+2024-07-06 13:56:46,173 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting ProtocolHandler ["http-nio-8888"]
+2024-07-06 13:56:46,187 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat started on port(s): 8888 (http) with context path ''
+2024-07-06 13:56:46,193 INFO StartupInfoLogger [restartedMain] [] [] [] []: Started DemoKeycloak22Application in 1.149 seconds (process running for 1.728)
+2024-07-06 13:56:51,448 INFO DirectJDKLog [http-nio-8888-exec-1] [] [] [] []: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-06 13:56:51,449 INFO FrameworkServlet [http-nio-8888-exec-1] [] [] [] []: Initializing Servlet 'dispatcherServlet'
+2024-07-06 13:56:51,449 INFO FrameworkServlet [http-nio-8888-exec-1] [] [] [] []: Completed initialization in 0 ms
+2024-07-06 13:56:51,644 INFO AuditFilter [http-nio-8888-exec-1] [HXEW62hs] [0:0:0:0:0:0:0:1] [hoaipn] [/api/test/update]: ALOG_SRV_REQ, request={User-Agent=PostmanRuntime/7.39.0, Host=localhost:8888, Method=POST}, header={}
+2024-07-06 13:56:51,698 INFO TestResource [http-nio-8888-exec-1] [HXEW62hs] [0:0:0:0:0:0:0:1] [hoaipn] [/api/test/update]: Begin update, request=UpdateData(name=HoaiPN, age=39)
+2024-07-06 13:57:12,769 INFO LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] [] [] [] []: Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-06 13:57:13,784 INFO DirectJDKLog [Thread-5] [] [] [] []: Pausing ProtocolHandler ["http-nio-8888"]
+2024-07-06 13:57:13,785 INFO DirectJDKLog [Thread-5] [] [] [] []: Stopping service [Tomcat]
+2024-07-06 13:57:13,786 INFO DirectJDKLog [Thread-5] [] [] [] []: Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-07-06 13:57:13,793 INFO DirectJDKLog [Thread-5] [] [] [] []: Stopping ProtocolHandler ["http-nio-8888"]
+2024-07-06 13:57:13,801 INFO DirectJDKLog [Thread-5] [] [] [] []: Destroying ProtocolHandler ["http-nio-8888"]
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+2024-07-06 13:57:13,855 INFO StartupInfoLogger [restartedMain] [] [] [] []: Starting DemoKeycloak22Application using Java 17.0.10 with PID 7046 (/Users/hoaipn/Working/Git/core/demo-keycloak22/target/classes started by hoaipn in /Users/hoaipn/Working/Git/core/demo-keycloak22)
+2024-07-06 13:57:13,855 INFO SpringApplication [restartedMain] [] [] [] []: No active profile set, falling back to 1 default profile: "default"
+2024-07-06 13:57:13,966 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat initialized with port(s): 8888 (http)
+2024-07-06 13:57:13,967 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing ProtocolHandler ["http-nio-8888"]
+2024-07-06 13:57:13,967 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting service [Tomcat]
+2024-07-06 13:57:13,967 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-06 13:57:13,972 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing Spring embedded WebApplicationContext
+2024-07-06 13:57:13,972 INFO ServletWebServerApplicationContext [restartedMain] [] [] [] []: Root WebApplicationContext: initialization completed in 116 ms
+2024-07-06 13:57:14,011 INFO DefaultSecurityFilterChain [restartedMain] [] [] [] []: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3bbc7b7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7b5ddf17, org.springframework.security.web.context.SecurityContextHolderFilter@64547b9e, org.springframework.security.web.header.HeaderWriterFilter@36a693c6, org.springframework.security.web.csrf.CsrfFilter@797fb98, org.springframework.security.web.authentication.logout.LogoutFilter@581620cb, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@6ac2a25c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5ca717b7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1de3b8fc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@20e506a1, org.springframework.security.web.access.ExceptionTranslationFilter@170ad1fe, org.springframework.security.web.access.intercept.AuthorizationFilter@3ccce5f8]
+2024-07-06 13:57:14,028 INFO OptionalLiveReloadServer [restartedMain] [] [] [] []: LiveReload server is running on port 35729
+2024-07-06 13:57:14,035 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting ProtocolHandler ["http-nio-8888"]
+2024-07-06 13:57:14,036 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat started on port(s): 8888 (http) with context path ''
+2024-07-06 13:57:14,039 INFO StartupInfoLogger [restartedMain] [] [] [] []: Started DemoKeycloak22Application in 0.202 seconds (process running for 29.574)
+2024-07-06 13:57:14,042 INFO ConditionEvaluationDeltaLoggingListener [restartedMain] [] [] [] []: Condition evaluation unchanged
+2024-07-06 14:05:46,852 INFO LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] [] [] [] []: Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
+2024-07-06 14:05:46,862 INFO DirectJDKLog [Thread-7] [] [] [] []: Pausing ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:05:46,863 INFO DirectJDKLog [Thread-7] [] [] [] []: Stopping service [Tomcat]
+2024-07-06 14:05:46,865 INFO DirectJDKLog [Thread-7] [] [] [] []: Stopping ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:05:46,866 INFO DirectJDKLog [Thread-7] [] [] [] []: Destroying ProtocolHandler ["http-nio-8888"]
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+2024-07-06 14:05:46,922 INFO StartupInfoLogger [restartedMain] [] [] [] []: Starting DemoKeycloak22Application using Java 17.0.10 with PID 7046 (/Users/hoaipn/Working/Git/core/demo-keycloak22/target/classes started by hoaipn in /Users/hoaipn/Working/Git/core/demo-keycloak22)
+2024-07-06 14:05:46,922 INFO SpringApplication [restartedMain] [] [] [] []: No active profile set, falling back to 1 default profile: "default"
+2024-07-06 14:05:47,033 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat initialized with port(s): 8888 (http)
+2024-07-06 14:05:47,034 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:05:47,034 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting service [Tomcat]
+2024-07-06 14:05:47,034 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-06 14:05:47,039 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing Spring embedded WebApplicationContext
+2024-07-06 14:05:47,040 INFO ServletWebServerApplicationContext [restartedMain] [] [] [] []: Root WebApplicationContext: initialization completed in 116 ms
+2024-07-06 14:05:47,101 INFO DefaultSecurityFilterChain [restartedMain] [] [] [] []: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@59ad643c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@72e2f7e4, org.springframework.security.web.context.SecurityContextHolderFilter@3ee59e36, org.springframework.security.web.header.HeaderWriterFilter@28956d42, org.springframework.security.web.csrf.CsrfFilter@21373182, org.springframework.security.web.authentication.logout.LogoutFilter@4f02194b, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@6ead9851, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@26c61349, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4832ad28, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@13821f23, org.springframework.security.web.access.ExceptionTranslationFilter@3d5a6819, org.springframework.security.web.access.intercept.AuthorizationFilter@313a077c]
+2024-07-06 14:05:47,120 INFO OptionalLiveReloadServer [restartedMain] [] [] [] []: LiveReload server is running on port 35729
+2024-07-06 14:05:47,126 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:05:47,127 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat started on port(s): 8888 (http) with context path ''
+2024-07-06 14:05:47,130 INFO StartupInfoLogger [restartedMain] [] [] [] []: Started DemoKeycloak22Application in 0.226 seconds (process running for 542.658)
+2024-07-06 14:05:47,131 INFO ConditionEvaluationDeltaLoggingListener [restartedMain] [] [] [] []: Condition evaluation unchanged
+2024-07-06 14:06:21,207 INFO LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] [] [] [] []: Restarting due to 9 class path changes (4 additions, 5 deletions, 0 modifications)
+2024-07-06 14:06:21,225 INFO DirectJDKLog [Thread-11] [] [] [] []: Pausing ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:06:21,225 INFO DirectJDKLog [Thread-11] [] [] [] []: Stopping service [Tomcat]
+2024-07-06 14:06:21,229 INFO DirectJDKLog [Thread-11] [] [] [] []: Stopping ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:06:21,230 INFO DirectJDKLog [Thread-11] [] [] [] []: Destroying ProtocolHandler ["http-nio-8888"]
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+2024-07-06 14:06:21,270 INFO StartupInfoLogger [restartedMain] [] [] [] []: Starting DemoKeycloak22Application using Java 17.0.10 with PID 7046 (/Users/hoaipn/Working/Git/core/demo-keycloak22/target/classes started by hoaipn in /Users/hoaipn/Working/Git/core/demo-keycloak22)
+2024-07-06 14:06:21,271 INFO SpringApplication [restartedMain] [] [] [] []: No active profile set, falling back to 1 default profile: "default"
+2024-07-06 14:06:21,354 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat initialized with port(s): 8888 (http)
+2024-07-06 14:06:21,354 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:06:21,355 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting service [Tomcat]
+2024-07-06 14:06:21,355 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-06 14:06:21,360 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing Spring embedded WebApplicationContext
+2024-07-06 14:06:21,360 INFO ServletWebServerApplicationContext [restartedMain] [] [] [] []: Root WebApplicationContext: initialization completed in 89 ms
+2024-07-06 14:06:21,390 INFO DefaultSecurityFilterChain [restartedMain] [] [] [] []: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7299eb15, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@460f2329, org.springframework.security.web.context.SecurityContextHolderFilter@a88ff7b, org.springframework.security.web.header.HeaderWriterFilter@35ba657c, org.springframework.security.web.csrf.CsrfFilter@44e682eb, org.springframework.security.web.authentication.logout.LogoutFilter@35531627, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@5f562cf6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7a89c51b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1e1a5a5c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1d647dcb, org.springframework.security.web.access.ExceptionTranslationFilter@38cef71, org.springframework.security.web.access.intercept.AuthorizationFilter@4dc2de55]
+2024-07-06 14:06:21,401 INFO OptionalLiveReloadServer [restartedMain] [] [] [] []: LiveReload server is running on port 35729
+2024-07-06 14:06:21,405 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:06:21,406 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat started on port(s): 8888 (http) with context path ''
+2024-07-06 14:06:21,409 INFO StartupInfoLogger [restartedMain] [] [] [] []: Started DemoKeycloak22Application in 0.152 seconds (process running for 576.937)
+2024-07-06 14:06:21,410 INFO ConditionEvaluationDeltaLoggingListener [restartedMain] [] [] [] []: Condition evaluation unchanged
+2024-07-06 14:06:39,964 INFO LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] [] [] [] []: Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2024-07-06 14:06:39,970 INFO DirectJDKLog [Thread-15] [] [] [] []: Pausing ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:06:39,971 INFO DirectJDKLog [Thread-15] [] [] [] []: Stopping service [Tomcat]
+2024-07-06 14:06:39,972 INFO DirectJDKLog [Thread-15] [] [] [] []: Stopping ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:06:39,974 INFO DirectJDKLog [Thread-15] [] [] [] []: Destroying ProtocolHandler ["http-nio-8888"]
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+2024-07-06 14:06:40,029 INFO StartupInfoLogger [restartedMain] [] [] [] []: Starting DemoKeycloak22Application using Java 17.0.10 with PID 7046 (/Users/hoaipn/Working/Git/core/demo-keycloak22/target/classes started by hoaipn in /Users/hoaipn/Working/Git/core/demo-keycloak22)
+2024-07-06 14:06:40,029 INFO SpringApplication [restartedMain] [] [] [] []: No active profile set, falling back to 1 default profile: "default"
+2024-07-06 14:06:40,139 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat initialized with port(s): 8888 (http)
+2024-07-06 14:06:40,139 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:06:40,140 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting service [Tomcat]
+2024-07-06 14:06:40,140 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-06 14:06:40,145 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing Spring embedded WebApplicationContext
+2024-07-06 14:06:40,146 INFO ServletWebServerApplicationContext [restartedMain] [] [] [] []: Root WebApplicationContext: initialization completed in 115 ms
+2024-07-06 14:06:40,204 INFO DefaultSecurityFilterChain [restartedMain] [] [] [] []: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@664871d9, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5a8ca5e6, org.springframework.security.web.context.SecurityContextHolderFilter@2556b228, org.springframework.security.web.header.HeaderWriterFilter@bb9d47a, org.springframework.security.web.csrf.CsrfFilter@1f8827f, org.springframework.security.web.authentication.logout.LogoutFilter@4d9f427d, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@51734d20, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@60782787, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@18976172, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3e2f59dd, org.springframework.security.web.access.ExceptionTranslationFilter@b3e7537, org.springframework.security.web.access.intercept.AuthorizationFilter@4f45704a]
+2024-07-06 14:06:40,230 INFO OptionalLiveReloadServer [restartedMain] [] [] [] []: LiveReload server is running on port 35729
+2024-07-06 14:06:40,237 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:06:40,241 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat started on port(s): 8888 (http) with context path ''
+2024-07-06 14:06:40,246 INFO StartupInfoLogger [restartedMain] [] [] [] []: Started DemoKeycloak22Application in 0.24 seconds (process running for 595.773)
+2024-07-06 14:06:40,248 INFO ConditionEvaluationDeltaLoggingListener [restartedMain] [] [] [] []: Condition evaluation unchanged
+2024-07-06 14:06:41,643 INFO LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] [] [] [] []: Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-07-06 14:06:42,649 INFO DirectJDKLog [Thread-19] [] [] [] []: Pausing ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:06:42,649 INFO DirectJDKLog [Thread-19] [] [] [] []: Stopping service [Tomcat]
+2024-07-06 14:06:42,651 INFO DirectJDKLog [Thread-19] [] [] [] []: Stopping ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:06:42,652 INFO DirectJDKLog [Thread-19] [] [] [] []: Destroying ProtocolHandler ["http-nio-8888"]
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+2024-07-06 14:06:42,700 INFO StartupInfoLogger [restartedMain] [] [] [] []: Starting DemoKeycloak22Application using Java 17.0.10 with PID 7046 (/Users/hoaipn/Working/Git/core/demo-keycloak22/target/classes started by hoaipn in /Users/hoaipn/Working/Git/core/demo-keycloak22)
+2024-07-06 14:06:42,700 INFO SpringApplication [restartedMain] [] [] [] []: No active profile set, falling back to 1 default profile: "default"
+2024-07-06 14:06:42,785 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat initialized with port(s): 8888 (http)
+2024-07-06 14:06:42,786 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:06:42,786 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting service [Tomcat]
+2024-07-06 14:06:42,786 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-06 14:06:42,790 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing Spring embedded WebApplicationContext
+2024-07-06 14:06:42,790 INFO ServletWebServerApplicationContext [restartedMain] [] [] [] []: Root WebApplicationContext: initialization completed in 89 ms
+2024-07-06 14:06:42,822 INFO DefaultSecurityFilterChain [restartedMain] [] [] [] []: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@211693ed, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3b9677b8, org.springframework.security.web.context.SecurityContextHolderFilter@7c3302c, org.springframework.security.web.header.HeaderWriterFilter@12394f75, org.springframework.security.web.csrf.CsrfFilter@5c2b46b5, org.springframework.security.web.authentication.logout.LogoutFilter@350e731b, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@67c6b2a5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@15bd08f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7348dfe6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6992df0, org.springframework.security.web.access.ExceptionTranslationFilter@72100e2c, org.springframework.security.web.access.intercept.AuthorizationFilter@5f8c47d5]
+2024-07-06 14:06:42,833 INFO OptionalLiveReloadServer [restartedMain] [] [] [] []: LiveReload server is running on port 35729
+2024-07-06 14:06:42,838 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:06:42,840 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat started on port(s): 8888 (http) with context path ''
+2024-07-06 14:06:42,843 INFO StartupInfoLogger [restartedMain] [] [] [] []: Started DemoKeycloak22Application in 0.163 seconds (process running for 598.37)
+2024-07-06 14:06:42,844 INFO ConditionEvaluationDeltaLoggingListener [restartedMain] [] [] [] []: Condition evaluation unchanged
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+2024-07-06 14:06:49,602 INFO StartupInfoLogger [restartedMain] [] [] [] []: Starting DemoKeycloak22Application using Java 17.0.10 with PID 7347 (/Users/hoaipn/Working/Git/core/demo-keycloak22/target/classes started by hoaipn in /Users/hoaipn/Working/Git/core/demo-keycloak22)
+2024-07-06 14:06:49,604 INFO SpringApplication [restartedMain] [] [] [] []: No active profile set, falling back to 1 default profile: "default"
+2024-07-06 14:06:49,642 INFO DeferredLog [restartedMain] [] [] [] []: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-06 14:06:49,643 INFO DeferredLog [restartedMain] [] [] [] []: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-06 14:06:50,174 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat initialized with port(s): 8888 (http)
+2024-07-06 14:06:50,179 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:06:50,180 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting service [Tomcat]
+2024-07-06 14:06:50,180 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-06 14:06:50,215 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing Spring embedded WebApplicationContext
+2024-07-06 14:06:50,215 INFO ServletWebServerApplicationContext [restartedMain] [] [] [] []: Root WebApplicationContext: initialization completed in 572 ms
+2024-07-06 14:06:50,399 INFO DefaultSecurityFilterChain [restartedMain] [] [] [] []: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@54ff3c0e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6c6bd7e3, org.springframework.security.web.context.SecurityContextHolderFilter@53161d6a, org.springframework.security.web.header.HeaderWriterFilter@37acc749, org.springframework.security.web.csrf.CsrfFilter@4658caf, org.springframework.security.web.authentication.logout.LogoutFilter@5b5201a8, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@598c026c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7e14934f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@79deff49, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@55cd3760, org.springframework.security.web.access.ExceptionTranslationFilter@47e6fd0, org.springframework.security.web.access.intercept.AuthorizationFilter@1e17fefd]
+2024-07-06 14:06:50,474 INFO OptionalLiveReloadServer [restartedMain] [] [] [] []: LiveReload server is running on port 35729
+2024-07-06 14:06:50,483 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:06:50,493 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat started on port(s): 8888 (http) with context path ''
+2024-07-06 14:06:50,500 INFO StartupInfoLogger [restartedMain] [] [] [] []: Started DemoKeycloak22Application in 1.139 seconds (process running for 1.715)
+2024-07-06 14:07:23,874 INFO DirectJDKLog [http-nio-8888-exec-2] [] [] [] []: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-06 14:07:23,876 INFO FrameworkServlet [http-nio-8888-exec-2] [] [] [] []: Initializing Servlet 'dispatcherServlet'
+2024-07-06 14:07:23,878 INFO FrameworkServlet [http-nio-8888-exec-2] [] [] [] []: Completed initialization in 2 ms
+2024-07-06 14:07:24,042 INFO AuditFilter [http-nio-8888-exec-2] [H3Hn37Kg] [0:0:0:0:0:0:0:1] [hoaipn] [/api/test/update]: ALOG_SRV_REQ, request={    "name": "HoaiPN",    "age": 39}, header={User-Agent=PostmanRuntime/7.39.0, Host=localhost:8888, Method=POST}
+2024-07-06 14:07:24,075 INFO TestResource [http-nio-8888-exec-2] [H3Hn37Kg] [0:0:0:0:0:0:0:1] [hoaipn] [/api/test/update]: Begin update, request=UpdateData(name=HoaiPN, age=39)
+2024-07-06 14:09:07,946 INFO LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] [] [] [] []: Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2024-07-06 14:09:07,962 INFO DirectJDKLog [Thread-5] [] [] [] []: Pausing ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:09:07,962 INFO DirectJDKLog [Thread-5] [] [] [] []: Stopping service [Tomcat]
+2024-07-06 14:09:07,964 INFO DirectJDKLog [Thread-5] [] [] [] []: Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-07-06 14:09:07,970 INFO DirectJDKLog [Thread-5] [] [] [] []: Stopping ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:09:07,972 INFO DirectJDKLog [Thread-5] [] [] [] []: Destroying ProtocolHandler ["http-nio-8888"]
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+2024-07-06 14:09:08,031 INFO StartupInfoLogger [restartedMain] [] [] [] []: Starting DemoKeycloak22Application using Java 17.0.10 with PID 7347 (/Users/hoaipn/Working/Git/core/demo-keycloak22/target/classes started by hoaipn in /Users/hoaipn/Working/Git/core/demo-keycloak22)
+2024-07-06 14:09:08,031 INFO SpringApplication [restartedMain] [] [] [] []: No active profile set, falling back to 1 default profile: "default"
+2024-07-06 14:09:08,175 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat initialized with port(s): 8888 (http)
+2024-07-06 14:09:08,176 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:09:08,176 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting service [Tomcat]
+2024-07-06 14:09:08,176 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-06 14:09:08,191 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing Spring embedded WebApplicationContext
+2024-07-06 14:09:08,192 INFO ServletWebServerApplicationContext [restartedMain] [] [] [] []: Root WebApplicationContext: initialization completed in 159 ms
+2024-07-06 14:09:08,263 INFO DefaultSecurityFilterChain [restartedMain] [] [] [] []: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5ff392f5, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@170da6c0, org.springframework.security.web.context.SecurityContextHolderFilter@1da2788c, org.springframework.security.web.header.HeaderWriterFilter@1613cee9, org.springframework.security.web.csrf.CsrfFilter@23b1d9b2, org.springframework.security.web.authentication.logout.LogoutFilter@6535a0d, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@43ec3bb7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@30735ec3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@d7c7fb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@56bfe43b, org.springframework.security.web.access.ExceptionTranslationFilter@7b0963bd, org.springframework.security.web.access.intercept.AuthorizationFilter@12aa7b29]
+2024-07-06 14:09:08,282 INFO OptionalLiveReloadServer [restartedMain] [] [] [] []: LiveReload server is running on port 35729
+2024-07-06 14:09:08,289 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:09:08,291 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat started on port(s): 8888 (http) with context path ''
+2024-07-06 14:09:08,294 INFO StartupInfoLogger [restartedMain] [] [] [] []: Started DemoKeycloak22Application in 0.285 seconds (process running for 139.508)
+2024-07-06 14:09:08,296 INFO ConditionEvaluationDeltaLoggingListener [restartedMain] [] [] [] []: Condition evaluation unchanged
+2024-07-06 14:09:09,700 INFO LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] [] [] [] []: Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-07-06 14:09:09,710 INFO DirectJDKLog [Thread-7] [] [] [] []: Pausing ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:09:09,711 INFO DirectJDKLog [Thread-7] [] [] [] []: Stopping service [Tomcat]
+2024-07-06 14:09:09,714 INFO DirectJDKLog [Thread-7] [] [] [] []: Stopping ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:09:09,717 INFO DirectJDKLog [Thread-7] [] [] [] []: Destroying ProtocolHandler ["http-nio-8888"]
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+2024-07-06 14:09:09,776 INFO StartupInfoLogger [restartedMain] [] [] [] []: Starting DemoKeycloak22Application using Java 17.0.10 with PID 7347 (/Users/hoaipn/Working/Git/core/demo-keycloak22/target/classes started by hoaipn in /Users/hoaipn/Working/Git/core/demo-keycloak22)
+2024-07-06 14:09:09,776 INFO SpringApplication [restartedMain] [] [] [] []: No active profile set, falling back to 1 default profile: "default"
+2024-07-06 14:09:09,863 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat initialized with port(s): 8888 (http)
+2024-07-06 14:09:09,864 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:09:09,864 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting service [Tomcat]
+2024-07-06 14:09:09,864 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-06 14:09:09,869 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing Spring embedded WebApplicationContext
+2024-07-06 14:09:09,869 INFO ServletWebServerApplicationContext [restartedMain] [] [] [] []: Root WebApplicationContext: initialization completed in 92 ms
+2024-07-06 14:09:09,901 INFO DefaultSecurityFilterChain [restartedMain] [] [] [] []: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4dd13e46, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3b5696bf, org.springframework.security.web.context.SecurityContextHolderFilter@48d2b0d3, org.springframework.security.web.header.HeaderWriterFilter@33a1971, org.springframework.security.web.csrf.CsrfFilter@5ca390fc, org.springframework.security.web.authentication.logout.LogoutFilter@63564d79, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@1cbd852d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@8b6ed45, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6d7d5b16, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@584db470, org.springframework.security.web.access.ExceptionTranslationFilter@4264f95c, org.springframework.security.web.access.intercept.AuthorizationFilter@5b170de8]
+2024-07-06 14:09:09,916 INFO OptionalLiveReloadServer [restartedMain] [] [] [] []: LiveReload server is running on port 35729
+2024-07-06 14:09:09,924 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:09:09,926 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat started on port(s): 8888 (http) with context path ''
+2024-07-06 14:09:09,928 INFO StartupInfoLogger [restartedMain] [] [] [] []: Started DemoKeycloak22Application in 0.167 seconds (process running for 141.142)
+2024-07-06 14:09:09,930 INFO ConditionEvaluationDeltaLoggingListener [restartedMain] [] [] [] []: Condition evaluation unchanged
+2024-07-06 14:11:04,129 INFO LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] [] [] [] []: Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
+2024-07-06 14:11:05,146 INFO DirectJDKLog [Thread-11] [] [] [] []: Pausing ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:11:05,147 INFO DirectJDKLog [Thread-11] [] [] [] []: Stopping service [Tomcat]
+2024-07-06 14:11:05,154 INFO DirectJDKLog [Thread-11] [] [] [] []: Stopping ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:11:05,157 INFO DirectJDKLog [Thread-11] [] [] [] []: Destroying ProtocolHandler ["http-nio-8888"]
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+2024-07-06 14:11:05,212 INFO StartupInfoLogger [restartedMain] [] [] [] []: Starting DemoKeycloak22Application using Java 17.0.10 with PID 7347 (/Users/hoaipn/Working/Git/core/demo-keycloak22/target/classes started by hoaipn in /Users/hoaipn/Working/Git/core/demo-keycloak22)
+2024-07-06 14:11:05,212 INFO SpringApplication [restartedMain] [] [] [] []: No active profile set, falling back to 1 default profile: "default"
+2024-07-06 14:11:05,304 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat initialized with port(s): 8888 (http)
+2024-07-06 14:11:05,305 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:11:05,305 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting service [Tomcat]
+2024-07-06 14:11:05,305 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-06 14:11:05,310 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing Spring embedded WebApplicationContext
+2024-07-06 14:11:05,310 INFO ServletWebServerApplicationContext [restartedMain] [] [] [] []: Root WebApplicationContext: initialization completed in 97 ms
+2024-07-06 14:11:05,346 INFO DefaultSecurityFilterChain [restartedMain] [] [] [] []: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@27a1a63f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3511dae5, org.springframework.security.web.context.SecurityContextHolderFilter@4d414828, org.springframework.security.web.header.HeaderWriterFilter@6e313b73, org.springframework.security.web.csrf.CsrfFilter@29171716, org.springframework.security.web.authentication.logout.LogoutFilter@3f619a78, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@14205c99, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5c7f4931, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1f2bc769, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6adb5f7d, org.springframework.security.web.access.ExceptionTranslationFilter@6a452a55, org.springframework.security.web.access.intercept.AuthorizationFilter@58a0f6ac]
+2024-07-06 14:11:05,363 INFO OptionalLiveReloadServer [restartedMain] [] [] [] []: LiveReload server is running on port 35729
+2024-07-06 14:11:05,369 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:11:05,370 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat started on port(s): 8888 (http) with context path ''
+2024-07-06 14:11:05,373 INFO StartupInfoLogger [restartedMain] [] [] [] []: Started DemoKeycloak22Application in 0.177 seconds (process running for 256.585)
+2024-07-06 14:11:05,374 INFO ConditionEvaluationDeltaLoggingListener [restartedMain] [] [] [] []: Condition evaluation unchanged
+2024-07-06 14:11:37,007 INFO LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] [] [] [] []: Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-06 14:11:37,017 INFO DirectJDKLog [Thread-15] [] [] [] []: Pausing ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:11:37,017 INFO DirectJDKLog [Thread-15] [] [] [] []: Stopping service [Tomcat]
+2024-07-06 14:11:37,020 INFO DirectJDKLog [Thread-15] [] [] [] []: Stopping ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:11:37,021 INFO DirectJDKLog [Thread-15] [] [] [] []: Destroying ProtocolHandler ["http-nio-8888"]
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+2024-07-06 14:11:37,076 INFO StartupInfoLogger [restartedMain] [] [] [] []: Starting DemoKeycloak22Application using Java 17.0.10 with PID 7347 (/Users/hoaipn/Working/Git/core/demo-keycloak22/target/classes started by hoaipn in /Users/hoaipn/Working/Git/core/demo-keycloak22)
+2024-07-06 14:11:37,077 INFO SpringApplication [restartedMain] [] [] [] []: No active profile set, falling back to 1 default profile: "default"
+2024-07-06 14:11:37,167 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat initialized with port(s): 8888 (http)
+2024-07-06 14:11:37,168 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:11:37,168 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting service [Tomcat]
+2024-07-06 14:11:37,168 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-06 14:11:37,173 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing Spring embedded WebApplicationContext
+2024-07-06 14:11:37,174 INFO ServletWebServerApplicationContext [restartedMain] [] [] [] []: Root WebApplicationContext: initialization completed in 96 ms
+2024-07-06 14:11:37,208 INFO DefaultSecurityFilterChain [restartedMain] [] [] [] []: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5712015e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6c00c826, org.springframework.security.web.context.SecurityContextHolderFilter@49ac7c13, org.springframework.security.web.header.HeaderWriterFilter@139f25ff, org.springframework.security.web.csrf.CsrfFilter@5a32380d, org.springframework.security.web.authentication.logout.LogoutFilter@40f8431b, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@55707070, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@295c77b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@c48b95, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@165ee5fb, org.springframework.security.web.access.ExceptionTranslationFilter@56ea8723, org.springframework.security.web.access.intercept.AuthorizationFilter@48c65c49]
+2024-07-06 14:11:37,224 INFO OptionalLiveReloadServer [restartedMain] [] [] [] []: LiveReload server is running on port 35729
+2024-07-06 14:11:37,230 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:11:37,231 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat started on port(s): 8888 (http) with context path ''
+2024-07-06 14:11:37,234 INFO StartupInfoLogger [restartedMain] [] [] [] []: Started DemoKeycloak22Application in 0.173 seconds (process running for 288.446)
+2024-07-06 14:11:37,235 INFO ConditionEvaluationDeltaLoggingListener [restartedMain] [] [] [] []: Condition evaluation unchanged
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+2024-07-06 14:12:54,331 INFO StartupInfoLogger [restartedMain] [] [] [] []: Starting DemoKeycloak22Application using Java 17.0.10 with PID 7542 (/Users/hoaipn/Working/Git/core/demo-keycloak22/target/classes started by hoaipn in /Users/hoaipn/Working/Git/core/demo-keycloak22)
+2024-07-06 14:12:54,333 INFO SpringApplication [restartedMain] [] [] [] []: No active profile set, falling back to 1 default profile: "default"
+2024-07-06 14:12:54,367 INFO DeferredLog [restartedMain] [] [] [] []: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-06 14:12:54,367 INFO DeferredLog [restartedMain] [] [] [] []: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-06 14:12:54,921 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat initialized with port(s): 8888 (http)
+2024-07-06 14:12:54,926 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:12:54,932 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting service [Tomcat]
+2024-07-06 14:12:54,932 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-06 14:12:54,967 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing Spring embedded WebApplicationContext
+2024-07-06 14:12:54,968 INFO ServletWebServerApplicationContext [restartedMain] [] [] [] []: Root WebApplicationContext: initialization completed in 600 ms
+2024-07-06 14:12:55,128 INFO DefaultSecurityFilterChain [restartedMain] [] [] [] []: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6309df52, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@78567b7e, org.springframework.security.web.context.SecurityContextHolderFilter@35cfdb0, org.springframework.security.web.header.HeaderWriterFilter@3eeb7c22, org.springframework.security.web.csrf.CsrfFilter@17eacab8, org.springframework.security.web.authentication.logout.LogoutFilter@6bf4ac8b, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@773b6a11, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@799013df, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6630e21f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5491fd87, org.springframework.security.web.access.ExceptionTranslationFilter@51a90fe0, org.springframework.security.web.access.intercept.AuthorizationFilter@2754ec28]
+2024-07-06 14:12:55,207 INFO OptionalLiveReloadServer [restartedMain] [] [] [] []: LiveReload server is running on port 35729
+2024-07-06 14:12:55,216 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:12:55,227 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat started on port(s): 8888 (http) with context path ''
+2024-07-06 14:12:55,233 INFO StartupInfoLogger [restartedMain] [] [] [] []: Started DemoKeycloak22Application in 1.171 seconds (process running for 1.786)
+2024-07-06 14:13:03,520 INFO DirectJDKLog [http-nio-8888-exec-1] [] [] [] []: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-06 14:13:03,521 INFO FrameworkServlet [http-nio-8888-exec-1] [] [] [] []: Initializing Servlet 'dispatcherServlet'
+2024-07-06 14:13:03,522 INFO FrameworkServlet [http-nio-8888-exec-1] [] [] [] []: Completed initialization in 1 ms
+2024-07-06 14:13:19,439 INFO AuditFilter [http-nio-8888-exec-3] [nsivvKnO] [0:0:0:0:0:0:0:1] [hoaipn] [/api/test/update]: ALOG_SRV_REQ, request={    "name": "HoaiPN",    "age": 39}, header={User-Agent=PostmanRuntime/7.39.0, Host=localhost:8888, Method=POST}
+2024-07-06 14:13:19,487 INFO TestResource [http-nio-8888-exec-3] [nsivvKnO] [0:0:0:0:0:0:0:1] [hoaipn] [/api/test/update]: Begin update, request=UpdateData(name=HoaiPN, age=39)
+2024-07-06 14:13:19,493 INFO AuditFilter [http-nio-8888-exec-3] [nsivvKnO] [0:0:0:0:0:0:0:1] [hoaipn] [/api/test/update]: ALOG_SRV_RES, request={
+    "name": "HoaiPN",
+    "age": 39
+}, response=, header={User-Agent=PostmanRuntime/7.39.0, Host=localhost:8888, Method=POST}
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+2024-07-06 14:15:15,872 INFO StartupInfoLogger [restartedMain] [] [] [] []: Starting DemoKeycloak22Application using Java 17.0.10 with PID 7625 (/Users/hoaipn/Working/Git/core/demo-keycloak22/target/classes started by hoaipn in /Users/hoaipn/Working/Git/core/demo-keycloak22)
+2024-07-06 14:15:15,874 INFO SpringApplication [restartedMain] [] [] [] []: No active profile set, falling back to 1 default profile: "default"
+2024-07-06 14:15:15,929 INFO DeferredLog [restartedMain] [] [] [] []: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-06 14:15:15,929 INFO DeferredLog [restartedMain] [] [] [] []: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-06 14:15:16,747 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat initialized with port(s): 8888 (http)
+2024-07-06 14:15:16,753 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:15:16,754 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting service [Tomcat]
+2024-07-06 14:15:16,755 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-06 14:15:16,791 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing Spring embedded WebApplicationContext
+2024-07-06 14:15:16,792 INFO ServletWebServerApplicationContext [restartedMain] [] [] [] []: Root WebApplicationContext: initialization completed in 862 ms
+2024-07-06 14:15:17,009 INFO DefaultSecurityFilterChain [restartedMain] [] [] [] []: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6d7056, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3ac220aa, org.springframework.security.web.context.SecurityContextHolderFilter@2fbb1ec5, org.springframework.security.web.header.HeaderWriterFilter@6a03f695, org.springframework.security.web.csrf.CsrfFilter@44641b6, org.springframework.security.web.authentication.logout.LogoutFilter@611cd70f, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@4e0fc923, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1478e495, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1db85cda, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@ab4a000, org.springframework.security.web.access.ExceptionTranslationFilter@36771ed0, org.springframework.security.web.access.intercept.AuthorizationFilter@2396478f]
+2024-07-06 14:15:17,105 INFO OptionalLiveReloadServer [restartedMain] [] [] [] []: LiveReload server is running on port 35729
+2024-07-06 14:15:17,115 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:15:17,127 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat started on port(s): 8888 (http) with context path ''
+2024-07-06 14:15:17,135 INFO StartupInfoLogger [restartedMain] [] [] [] []: Started DemoKeycloak22Application in 1.824 seconds (process running for 2.432)
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+2024-07-06 14:15:30,591 INFO StartupInfoLogger [restartedMain] [] [] [] []: Starting DemoKeycloak22Application using Java 17.0.10 with PID 7636 (/Users/hoaipn/Working/Git/core/demo-keycloak22/target/classes started by hoaipn in /Users/hoaipn/Working/Git/core/demo-keycloak22)
+2024-07-06 14:15:30,593 INFO SpringApplication [restartedMain] [] [] [] []: No active profile set, falling back to 1 default profile: "default"
+2024-07-06 14:15:30,625 INFO DeferredLog [restartedMain] [] [] [] []: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-06 14:15:30,625 INFO DeferredLog [restartedMain] [] [] [] []: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-06 14:15:31,173 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat initialized with port(s): 8888 (http)
+2024-07-06 14:15:31,182 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:15:31,183 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting service [Tomcat]
+2024-07-06 14:15:31,183 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-06 14:15:31,220 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing Spring embedded WebApplicationContext
+2024-07-06 14:15:31,220 INFO ServletWebServerApplicationContext [restartedMain] [] [] [] []: Root WebApplicationContext: initialization completed in 594 ms
+2024-07-06 14:15:31,387 INFO DefaultSecurityFilterChain [restartedMain] [] [] [] []: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2b797588, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@779bc4f6, org.springframework.security.web.context.SecurityContextHolderFilter@f7dccaf, org.springframework.security.web.header.HeaderWriterFilter@6c0f9f49, org.springframework.security.web.csrf.CsrfFilter@4f01c0e3, org.springframework.security.web.authentication.logout.LogoutFilter@61736c47, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@61453d44, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1307165a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7638799b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3f7c685c, org.springframework.security.web.access.ExceptionTranslationFilter@6a017074, org.springframework.security.web.access.intercept.AuthorizationFilter@7a9a247b]
+2024-07-06 14:15:31,462 INFO OptionalLiveReloadServer [restartedMain] [] [] [] []: LiveReload server is running on port 35729
+2024-07-06 14:15:31,472 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:15:31,483 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat started on port(s): 8888 (http) with context path ''
+2024-07-06 14:15:31,490 INFO StartupInfoLogger [restartedMain] [] [] [] []: Started DemoKeycloak22Application in 1.171 seconds (process running for 1.755)
+2024-07-06 14:15:34,213 INFO DirectJDKLog [http-nio-8888-exec-1] [] [] [] []: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-06 14:15:34,216 INFO FrameworkServlet [http-nio-8888-exec-1] [] [] [] []: Initializing Servlet 'dispatcherServlet'
+2024-07-06 14:15:34,218 INFO FrameworkServlet [http-nio-8888-exec-1] [] [] [] []: Completed initialization in 2 ms
+2024-07-06 14:15:34,415 INFO AuditFilter [http-nio-8888-exec-1] [7Wr25DaP] [0:0:0:0:0:0:0:1] [hoaipn] [/api/test/update]: ALOG_SRV_REQ, request={    "name": "HoaiPN",    "age": 39}, header={User-Agent=PostmanRuntime/7.39.0, Host=localhost:8888, Method=POST}
+2024-07-06 14:15:34,452 INFO TestResource [http-nio-8888-exec-1] [7Wr25DaP] [0:0:0:0:0:0:0:1] [hoaipn] [/api/test/update]: Begin update, request=UpdateData(name=HoaiPN, age=39)
+2024-07-06 14:15:34,458 INFO AuditFilter [http-nio-8888-exec-1] [7Wr25DaP] [0:0:0:0:0:0:0:1] [hoaipn] [/api/test/update]: ALOG_SRV_RES, request={    "name": "HoaiPN",    "age": 39}, response=, header={User-Agent=PostmanRuntime/7.39.0, Host=localhost:8888, Method=POST}
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+2024-07-06 14:16:25,388 INFO StartupInfoLogger [restartedMain] [] [] [] []: Starting DemoKeycloak22Application using Java 17.0.10 with PID 7663 (/Users/hoaipn/Working/Git/core/demo-keycloak22/target/classes started by hoaipn in /Users/hoaipn/Working/Git/core/demo-keycloak22)
+2024-07-06 14:16:25,390 INFO SpringApplication [restartedMain] [] [] [] []: No active profile set, falling back to 1 default profile: "default"
+2024-07-06 14:16:25,444 INFO DeferredLog [restartedMain] [] [] [] []: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-06 14:16:25,445 INFO DeferredLog [restartedMain] [] [] [] []: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-06 14:16:26,055 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat initialized with port(s): 8888 (http)
+2024-07-06 14:16:26,059 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:16:26,060 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting service [Tomcat]
+2024-07-06 14:16:26,061 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-06 14:16:26,089 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing Spring embedded WebApplicationContext
+2024-07-06 14:16:26,089 INFO ServletWebServerApplicationContext [restartedMain] [] [] [] []: Root WebApplicationContext: initialization completed in 643 ms
+2024-07-06 14:16:26,279 INFO DefaultSecurityFilterChain [restartedMain] [] [] [] []: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2f684ffb, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@11ff08ec, org.springframework.security.web.context.SecurityContextHolderFilter@4e2c262d, org.springframework.security.web.header.HeaderWriterFilter@6beeee6b, org.springframework.security.web.csrf.CsrfFilter@66d2fcf4, org.springframework.security.web.authentication.logout.LogoutFilter@2b853a16, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@330c63ad, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1a8bb8be, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@222fa102, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@41be1075, org.springframework.security.web.access.ExceptionTranslationFilter@7d9e0ac7, org.springframework.security.web.access.intercept.AuthorizationFilter@4c099c28]
+2024-07-06 14:16:26,377 INFO OptionalLiveReloadServer [restartedMain] [] [] [] []: LiveReload server is running on port 35729
+2024-07-06 14:16:26,386 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:16:26,397 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat started on port(s): 8888 (http) with context path ''
+2024-07-06 14:16:26,405 INFO StartupInfoLogger [restartedMain] [] [] [] []: Started DemoKeycloak22Application in 1.267 seconds (process running for 2.019)
+2024-07-06 14:16:31,318 INFO DirectJDKLog [http-nio-8888-exec-1] [] [] [] []: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-06 14:16:31,318 INFO FrameworkServlet [http-nio-8888-exec-1] [] [] [] []: Initializing Servlet 'dispatcherServlet'
+2024-07-06 14:16:31,319 INFO FrameworkServlet [http-nio-8888-exec-1] [] [] [] []: Completed initialization in 1 ms
+2024-07-06 14:16:31,529 INFO AuditFilter [http-nio-8888-exec-1] [WSp2scIe] [0:0:0:0:0:0:0:1] [hoaipn] [/api/test/update]: ALOG_SRV_REQ, request={    "name": "HoaiPN",    "age": 39}, header={User-Agent=PostmanRuntime/7.39.0, Host=localhost:8888, Method=POST}
+2024-07-06 14:16:31,579 INFO AuditFilter [http-nio-8888-exec-1] [WSp2scIe] [0:0:0:0:0:0:0:1] [hoaipn] [/api/test/update]: ALOG_SRV_RES, request={    "name": "HoaiPN",    "age": 39}, response=, header={User-Agent=PostmanRuntime/7.39.0, Host=localhost:8888, Method=POST}
+2024-07-06 14:16:34,196 INFO AuditFilter [http-nio-8888-exec-3] [qmJrZwr4] [0:0:0:0:0:0:0:1] [hoaipn] [/api/test]: ALOG_SRV_REQ, request=, header={User-Agent=PostmanRuntime/7.39.0, Host=localhost:8888, Method=GET}
+2024-07-06 14:16:34,203 INFO AuditFilter [http-nio-8888-exec-3] [qmJrZwr4] [0:0:0:0:0:0:0:1] [hoaipn] [/api/test]: ALOG_SRV_RES, request=, response=Test, header={User-Agent=PostmanRuntime/7.39.0, Host=localhost:8888, Method=GET}
+2024-07-06 14:18:11,708 INFO LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] [] [] [] []: Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2024-07-06 14:18:11,739 INFO DirectJDKLog [Thread-5] [] [] [] []: Pausing ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:18:11,739 INFO DirectJDKLog [Thread-5] [] [] [] []: Stopping service [Tomcat]
+2024-07-06 14:18:11,741 INFO DirectJDKLog [Thread-5] [] [] [] []: Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-07-06 14:18:11,747 INFO DirectJDKLog [Thread-5] [] [] [] []: Stopping ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:18:11,752 INFO DirectJDKLog [Thread-5] [] [] [] []: Destroying ProtocolHandler ["http-nio-8888"]
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+2024-07-06 14:18:11,843 INFO StartupInfoLogger [restartedMain] [] [] [] []: Starting DemoKeycloak22Application using Java 17.0.10 with PID 7663 (/Users/hoaipn/Working/Git/core/demo-keycloak22/target/classes started by hoaipn in /Users/hoaipn/Working/Git/core/demo-keycloak22)
+2024-07-06 14:18:11,844 INFO SpringApplication [restartedMain] [] [] [] []: No active profile set, falling back to 1 default profile: "default"
+2024-07-06 14:18:12,020 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat initialized with port(s): 8888 (http)
+2024-07-06 14:18:12,021 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:18:12,021 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting service [Tomcat]
+2024-07-06 14:18:12,021 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-06 14:18:12,028 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing Spring embedded WebApplicationContext
+2024-07-06 14:18:12,028 INFO ServletWebServerApplicationContext [restartedMain] [] [] [] []: Root WebApplicationContext: initialization completed in 181 ms
+2024-07-06 14:18:12,092 INFO DefaultSecurityFilterChain [restartedMain] [] [] [] []: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@17ca8501, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4567a665, org.springframework.security.web.context.SecurityContextHolderFilter@2afd9036, org.springframework.security.web.header.HeaderWriterFilter@2766a1e5, org.springframework.security.web.csrf.CsrfFilter@2046e61d, org.springframework.security.web.authentication.logout.LogoutFilter@66e010d8, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@714a2d20, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3d9ced7a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3221aeed, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@646d5ce1, org.springframework.security.web.access.ExceptionTranslationFilter@2c8466d2, org.springframework.security.web.access.intercept.AuthorizationFilter@3a451f1]
+2024-07-06 14:18:12,117 INFO OptionalLiveReloadServer [restartedMain] [] [] [] []: LiveReload server is running on port 35729
+2024-07-06 14:18:12,124 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:18:12,126 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat started on port(s): 8888 (http) with context path ''
+2024-07-06 14:18:12,129 INFO StartupInfoLogger [restartedMain] [] [] [] []: Started DemoKeycloak22Application in 0.318 seconds (process running for 107.743)
+2024-07-06 14:18:12,131 INFO ConditionEvaluationDeltaLoggingListener [restartedMain] [] [] [] []: Condition evaluation unchanged
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+2024-07-06 14:19:34,273 INFO StartupInfoLogger [restartedMain] [] [] [] []: Starting DemoKeycloak22Application using Java 17.0.10 with PID 7754 (/Users/hoaipn/Working/Git/core/demo-keycloak22/target/classes started by hoaipn in /Users/hoaipn/Working/Git/core/demo-keycloak22)
+2024-07-06 14:19:34,276 INFO SpringApplication [restartedMain] [] [] [] []: No active profile set, falling back to 1 default profile: "default"
+2024-07-06 14:19:34,316 INFO DeferredLog [restartedMain] [] [] [] []: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-06 14:19:34,317 INFO DeferredLog [restartedMain] [] [] [] []: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-06 14:19:34,955 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat initialized with port(s): 8888 (http)
+2024-07-06 14:19:34,960 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:19:34,961 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting service [Tomcat]
+2024-07-06 14:19:34,961 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-06 14:19:34,988 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing Spring embedded WebApplicationContext
+2024-07-06 14:19:34,988 INFO ServletWebServerApplicationContext [restartedMain] [] [] [] []: Root WebApplicationContext: initialization completed in 671 ms
+2024-07-06 14:19:35,171 INFO DefaultSecurityFilterChain [restartedMain] [] [] [] []: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@64e48d14, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@52753299, org.springframework.security.web.context.SecurityContextHolderFilter@4c351df8, org.springframework.security.web.header.HeaderWriterFilter@2f6f3ddc, org.springframework.security.web.csrf.CsrfFilter@138dd59c, org.springframework.security.web.authentication.logout.LogoutFilter@27fb93e3, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@73d2ff2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@40c15c15, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@105fb57f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3cd9c59a, org.springframework.security.web.access.ExceptionTranslationFilter@1a559606, org.springframework.security.web.access.intercept.AuthorizationFilter@423e103f]
+2024-07-06 14:19:35,302 INFO OptionalLiveReloadServer [restartedMain] [] [] [] []: LiveReload server is running on port 35729
+2024-07-06 14:19:35,318 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:19:35,332 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat started on port(s): 8888 (http) with context path ''
+2024-07-06 14:19:35,339 INFO StartupInfoLogger [restartedMain] [] [] [] []: Started DemoKeycloak22Application in 1.334 seconds (process running for 2.121)
+2024-07-06 14:19:38,132 INFO DirectJDKLog [http-nio-8888-exec-1] [] [] [] []: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-06 14:19:38,132 INFO FrameworkServlet [http-nio-8888-exec-1] [] [] [] []: Initializing Servlet 'dispatcherServlet'
+2024-07-06 14:19:38,133 INFO FrameworkServlet [http-nio-8888-exec-1] [] [] [] []: Completed initialization in 1 ms
+2024-07-06 14:19:53,060 INFO AuditFilter [http-nio-8888-exec-2] [P1tsD8Z3] [0:0:0:0:0:0:0:1] [hoaipn] [/api/test]: ALOG_SRV_REQ, request=, header={User-Agent=PostmanRuntime/7.39.0, Host=localhost:8888, Method=GET}
+2024-07-06 14:19:53,088 INFO AuditFilter [http-nio-8888-exec-2] [P1tsD8Z3] [0:0:0:0:0:0:0:1] [hoaipn] [/api/test]: ALOG_SRV_RES, request=, response=Test, header={User-Agent=PostmanRuntime/7.39.0, Host=localhost:8888, Method=GET}
+2024-07-06 14:19:55,575 INFO AuditFilter [http-nio-8888-exec-5] [oIopD28g] [0:0:0:0:0:0:0:1] [hoaipn] [/api/test/update]: ALOG_SRV_REQ, request={    "name": "HoaiPN",    "age": 39}, header={User-Agent=PostmanRuntime/7.39.0, Host=localhost:8888, Method=POST}
+2024-07-06 14:19:55,616 INFO AuditFilter [http-nio-8888-exec-5] [oIopD28g] [0:0:0:0:0:0:0:1] [hoaipn] [/api/test/update]: ALOG_SRV_RES, request={    "name": "HoaiPN",    "age": 39}, response=, header={User-Agent=PostmanRuntime/7.39.0, Host=localhost:8888, Method=POST}
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+2024-07-06 14:22:02,244 INFO StartupInfoLogger [restartedMain] [] [] [] []: Starting DemoKeycloak22Application using Java 17.0.10 with PID 7805 (/Users/hoaipn/Working/Git/core/demo-keycloak22/target/classes started by hoaipn in /Users/hoaipn/Working/Git/core/demo-keycloak22)
+2024-07-06 14:22:02,246 INFO SpringApplication [restartedMain] [] [] [] []: No active profile set, falling back to 1 default profile: "default"
+2024-07-06 14:22:02,281 INFO DeferredLog [restartedMain] [] [] [] []: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-06 14:22:02,281 INFO DeferredLog [restartedMain] [] [] [] []: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-06 14:22:02,864 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat initialized with port(s): 8888 (http)
+2024-07-06 14:22:02,875 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:22:02,876 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting service [Tomcat]
+2024-07-06 14:22:02,876 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-06 14:22:02,908 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing Spring embedded WebApplicationContext
+2024-07-06 14:22:02,908 INFO ServletWebServerApplicationContext [restartedMain] [] [] [] []: Root WebApplicationContext: initialization completed in 626 ms
+2024-07-06 14:22:03,084 INFO DefaultSecurityFilterChain [restartedMain] [] [] [] []: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2624e942, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@11d876a4, org.springframework.security.web.context.SecurityContextHolderFilter@1209dd22, org.springframework.security.web.header.HeaderWriterFilter@19dba226, org.springframework.security.web.csrf.CsrfFilter@3f753c1b, org.springframework.security.web.authentication.logout.LogoutFilter@5f90df2, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@42dc35b9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@650f5582, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4d6ecded, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@328ae8db, org.springframework.security.web.access.ExceptionTranslationFilter@59e31d8f, org.springframework.security.web.access.intercept.AuthorizationFilter@2b5914f8]
+2024-07-06 14:22:03,159 INFO OptionalLiveReloadServer [restartedMain] [] [] [] []: LiveReload server is running on port 35729
+2024-07-06 14:22:03,169 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:22:03,183 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat started on port(s): 8888 (http) with context path ''
+2024-07-06 14:22:03,190 INFO StartupInfoLogger [restartedMain] [] [] [] []: Started DemoKeycloak22Application in 1.181 seconds (process running for 1.797)
+2024-07-06 14:22:07,805 INFO DirectJDKLog [http-nio-8888-exec-2] [] [] [] []: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-06 14:22:07,805 INFO FrameworkServlet [http-nio-8888-exec-2] [] [] [] []: Initializing Servlet 'dispatcherServlet'
+2024-07-06 14:22:07,806 INFO FrameworkServlet [http-nio-8888-exec-2] [] [] [] []: Completed initialization in 1 ms
+2024-07-06 14:22:07,983 INFO AuditFilter [http-nio-8888-exec-2] [RbMGeIOB] [0:0:0:0:0:0:0:1] [hoaipn] [/api/test]: ALOG_SRV_REQ, request=, header={User-Agent=PostmanRuntime/7.39.0, Host=localhost:8888, Method=GET}
+2024-07-06 14:22:07,996 INFO AuditFilter [http-nio-8888-exec-2] [RbMGeIOB] [0:0:0:0:0:0:0:1] [hoaipn] [/api/test]: ALOG_SRV_RES, request=, response=Test, header={User-Agent=PostmanRuntime/7.39.0, Host=localhost:8888, Method=GET}
+2024-07-06 14:22:09,993 INFO AuditFilter [http-nio-8888-exec-4] [B4b5rYF3] [0:0:0:0:0:0:0:1] [hoaipn] [/api/test/update]: ALOG_SRV_REQ, request={    "name": "HoaiPN",    "age": 39}, header={User-Agent=PostmanRuntime/7.39.0, Host=localhost:8888, Method=POST}
+2024-07-06 14:22:10,032 INFO AuditFilter [http-nio-8888-exec-4] [B4b5rYF3] [0:0:0:0:0:0:0:1] [hoaipn] [/api/test/update]: ALOG_SRV_RES, request={    "name": "HoaiPN",    "age": 39}, response=, header={User-Agent=PostmanRuntime/7.39.0, Host=localhost:8888, Method=POST}
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+2024-07-06 14:25:57,376 INFO StartupInfoLogger [restartedMain] [] [] [] []: Starting DemoKeycloak22Application using Java 17.0.10 with PID 7898 (/Users/hoaipn/Working/Git/core/demo-keycloak22/target/classes started by hoaipn in /Users/hoaipn/Working/Git/core/demo-keycloak22)
+2024-07-06 14:25:57,378 INFO SpringApplication [restartedMain] [] [] [] []: No active profile set, falling back to 1 default profile: "default"
+2024-07-06 14:25:57,416 INFO DeferredLog [restartedMain] [] [] [] []: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-06 14:25:57,416 INFO DeferredLog [restartedMain] [] [] [] []: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-06 14:25:58,003 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat initialized with port(s): 8888 (http)
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+2024-07-06 14:27:16,421 INFO StartupInfoLogger [restartedMain] [] [] [] []: Starting DemoKeycloak22Application using Java 17.0.10 with PID 7946 (/Users/hoaipn/Working/Git/core/demo-keycloak22/target/classes started by hoaipn in /Users/hoaipn/Working/Git/core/demo-keycloak22)
+2024-07-06 14:27:16,423 INFO SpringApplication [restartedMain] [] [] [] []: No active profile set, falling back to 1 default profile: "default"
+2024-07-06 14:27:16,462 INFO DeferredLog [restartedMain] [] [] [] []: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-06 14:27:16,463 INFO DeferredLog [restartedMain] [] [] [] []: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-06 14:27:17,016 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat initialized with port(s): 8888 (http)
+2024-07-06 14:27:17,036 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:27:17,037 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting service [Tomcat]
+2024-07-06 14:27:17,037 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-06 14:27:17,069 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing Spring embedded WebApplicationContext
+2024-07-06 14:27:17,070 INFO ServletWebServerApplicationContext [restartedMain] [] [] [] []: Root WebApplicationContext: initialization completed in 607 ms
+2024-07-06 14:27:17,252 INFO DefaultSecurityFilterChain [restartedMain] [] [] [] []: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@207f6355, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1ecfabbe, org.springframework.security.web.context.SecurityContextHolderFilter@154c4a8, org.springframework.security.web.header.HeaderWriterFilter@7e90cf0d, org.springframework.security.web.csrf.CsrfFilter@e5b6d2b, org.springframework.security.web.authentication.logout.LogoutFilter@5d3668ba, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@31c999ef, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4fdcabe5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3182c29d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@63344f69, org.springframework.security.web.access.ExceptionTranslationFilter@3dd77c52, org.springframework.security.web.access.intercept.AuthorizationFilter@32ef59e6]
+2024-07-06 14:27:17,329 INFO OptionalLiveReloadServer [restartedMain] [] [] [] []: LiveReload server is running on port 35729
+2024-07-06 14:27:17,338 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:27:17,350 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat started on port(s): 8888 (http) with context path ''
+2024-07-06 14:27:17,356 INFO StartupInfoLogger [restartedMain] [] [] [] []: Started DemoKeycloak22Application in 1.167 seconds (process running for 1.773)
+2024-07-06 14:27:38,506 INFO DirectJDKLog [http-nio-8888-exec-2] [] [] [] []: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-06 14:27:38,507 INFO FrameworkServlet [http-nio-8888-exec-2] [] [] [] []: Initializing Servlet 'dispatcherServlet'
+2024-07-06 14:27:38,508 INFO FrameworkServlet [http-nio-8888-exec-2] [] [] [] []: Completed initialization in 1 ms
+2024-07-06 14:27:38,694 INFO AuditFilter [http-nio-8888-exec-2] [88GBqx0b] [0:0:0:0:0:0:0:1] [hoaipn] [/api/customer]: ALOG_SRV_REQ, request=, header={User-Agent=PostmanRuntime/7.39.0, Host=localhost:8888, Method=GET}
+2024-07-06 14:27:38,729 INFO AuditFilter [http-nio-8888-exec-2] [88GBqx0b] [0:0:0:0:0:0:0:1] [hoaipn] [/api/customer]: ALOG_SRV_RES, request=, response={"name":"Pháº¡m Ngá»c HoÃ i","age":39}, header={User-Agent=PostmanRuntime/7.39.0, Host=localhost:8888, Method=GET}
+2024-07-06 14:28:07,664 INFO AuditFilter [http-nio-8888-exec-3] [4MEVl6xT] [0:0:0:0:0:0:0:1] [hoaipn] [/api/customer]: ALOG_SRV_REQ, request=, header={User-Agent=PostmanRuntime/7.39.0, Host=localhost:8888, Method=GET}
+2024-07-06 14:28:07,671 INFO AuditFilter [http-nio-8888-exec-3] [4MEVl6xT] [0:0:0:0:0:0:0:1] [hoaipn] [/api/customer]: ALOG_SRV_RES, request=, response={"name":"Pháº¡m Ngá»c HoÃ i","age":39}, header={User-Agent=PostmanRuntime/7.39.0, Host=localhost:8888, Method=GET}
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+#logback.classic pattern: %d %p %C{0} [%t] [%X{traceId}] [%X{clientIp}] [%X{identity}] [%X{path}]: %m%n%throwable
+2024-07-06 14:32:06,946 INFO StartupInfoLogger [restartedMain] [] [] [] []: Starting DemoKeycloak22Application using Java 17.0.10 with PID 8089 (/Users/hoaipn/Working/Git/core/demo-keycloak22/target/classes started by hoaipn in /Users/hoaipn/Working/Git/core/demo-keycloak22)
+2024-07-06 14:32:06,948 INFO SpringApplication [restartedMain] [] [] [] []: No active profile set, falling back to 1 default profile: "default"
+2024-07-06 14:32:06,993 INFO DeferredLog [restartedMain] [] [] [] []: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-06 14:32:06,993 INFO DeferredLog [restartedMain] [] [] [] []: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-06 14:32:07,626 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat initialized with port(s): 8888 (http)
+2024-07-06 14:32:07,632 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:32:07,637 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting service [Tomcat]
+2024-07-06 14:32:07,637 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-06 14:32:07,664 INFO DirectJDKLog [restartedMain] [] [] [] []: Initializing Spring embedded WebApplicationContext
+2024-07-06 14:32:07,665 INFO ServletWebServerApplicationContext [restartedMain] [] [] [] []: Root WebApplicationContext: initialization completed in 670 ms
+2024-07-06 14:32:07,853 INFO DefaultSecurityFilterChain [restartedMain] [] [] [] []: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@73bf5136, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3f07f2be, org.springframework.security.web.context.SecurityContextHolderFilter@ca40a7f, org.springframework.security.web.header.HeaderWriterFilter@c30049, org.springframework.security.web.csrf.CsrfFilter@322432a3, org.springframework.security.web.authentication.logout.LogoutFilter@5936d750, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@5bf4303, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4bdbe842, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4e61861d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@405f1906, org.springframework.security.web.access.ExceptionTranslationFilter@b7e0f24, org.springframework.security.web.access.intercept.AuthorizationFilter@75fe236b]
+2024-07-06 14:32:07,925 INFO OptionalLiveReloadServer [restartedMain] [] [] [] []: LiveReload server is running on port 35729
+2024-07-06 14:32:07,935 INFO DirectJDKLog [restartedMain] [] [] [] []: Starting ProtocolHandler ["http-nio-8888"]
+2024-07-06 14:32:07,945 INFO TomcatWebServer [restartedMain] [] [] [] []: Tomcat started on port(s): 8888 (http) with context path ''
+2024-07-06 14:32:07,952 INFO StartupInfoLogger [restartedMain] [] [] [] []: Started DemoKeycloak22Application in 1.293 seconds (process running for 1.921)
+2024-07-06 14:32:18,860 INFO DirectJDKLog [http-nio-8888-exec-1] [] [] [] []: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-06 14:32:18,861 INFO FrameworkServlet [http-nio-8888-exec-1] [] [] [] []: Initializing Servlet 'dispatcherServlet'
+2024-07-06 14:32:18,862 INFO FrameworkServlet [http-nio-8888-exec-1] [] [] [] []: Completed initialization in 1 ms
+2024-07-06 14:32:19,043 INFO AuditFilter [http-nio-8888-exec-1] [oakwDwQ6] [0:0:0:0:0:0:0:1] [hoaipn] [/api/customer]: ALOG_SRV_REQ, request=, header={User-Agent=PostmanRuntime/7.39.0, Host=localhost:8888, Method=GET}
+2024-07-06 14:32:19,072 INFO AuditFilter [http-nio-8888-exec-1] [oakwDwQ6] [0:0:0:0:0:0:0:1] [hoaipn] [/api/customer]: ALOG_SRV_RES, request=, response={"name":"Phạm Ngọc Hoài","age":39}, header={User-Agent=PostmanRuntime/7.39.0, Host=localhost:8888, Method=GET}
+2024-07-06 14:32:33,695 INFO AuditFilter [http-nio-8888-exec-3] [ZUlEtEm0] [0:0:0:0:0:0:0:1] [hoaipn] [/api/test/update]: ALOG_SRV_REQ, request={    "name": "HoaiPN",    "age": 20}, header={User-Agent=PostmanRuntime/7.39.0, Host=localhost:8888, Method=POST}
+2024-07-06 14:32:33,700 INFO AuditFilter [http-nio-8888-exec-3] [ZUlEtEm0] [0:0:0:0:0:0:0:1] [hoaipn] [/api/test/update]: ALOG_SRV_RES, request={    "name": "HoaiPN",    "age": 20}, response=, header={User-Agent=PostmanRuntime/7.39.0, Host=localhost:8888, Method=POST}
+2024-07-06 14:33:15,135 INFO AuditFilter [http-nio-8888-exec-4] [tKb6carJ] [0:0:0:0:0:0:0:1] [hoaipn] [/api/customer]: ALOG_SRV_REQ, request=, header={User-Agent=PostmanRuntime/7.39.0, Host=localhost:8888, Method=GET}
+2024-07-06 14:33:15,144 INFO AuditFilter [http-nio-8888-exec-4] [tKb6carJ] [0:0:0:0:0:0:0:1] [hoaipn] [/api/customer]: ALOG_SRV_RES, request=, response={"name":"Phạm Ngọc Hoài","age":39}, header={User-Agent=PostmanRuntime/7.39.0, Host=localhost:8888, Method=GET}
+2024-07-06 14:33:17,479 INFO AuditFilter [http-nio-8888-exec-5] [1hNjZS3g] [0:0:0:0:0:0:0:1] [hoaipn] [/api/update]: ALOG_SRV_REQ, request={    "name": "HoaiPN",    "age": 20}, header={User-Agent=PostmanRuntime/7.39.0, Host=localhost:8888, Method=POST}
+2024-07-06 14:33:17,482 INFO AuditFilter [http-nio-8888-exec-5] [1hNjZS3g] [0:0:0:0:0:0:0:1] [hoaipn] [/api/update]: ALOG_SRV_RES, request={    "name": "HoaiPN",    "age": 20}, response=, header={User-Agent=PostmanRuntime/7.39.0, Host=localhost:8888, Method=POST}
+2024-07-06 14:33:31,730 INFO AuditFilter [http-nio-8888-exec-6] [3wEP2xKM] [0:0:0:0:0:0:0:1] [hoaipn] [/api/customer]: ALOG_SRV_REQ, request=, header={User-Agent=PostmanRuntime/7.39.0, Host=localhost:8888, Method=GET}
+2024-07-06 14:33:31,735 INFO AuditFilter [http-nio-8888-exec-6] [3wEP2xKM] [0:0:0:0:0:0:0:1] [hoaipn] [/api/customer]: ALOG_SRV_RES, request=, response={"name":"Phạm Ngọc Hoài","age":39}, header={User-Agent=PostmanRuntime/7.39.0, Host=localhost:8888, Method=GET}
+2024-07-06 14:33:34,019 INFO AuditFilter [http-nio-8888-exec-7] [dsKGtfQY] [0:0:0:0:0:0:0:1] [hoaipn] [/api/customer]: ALOG_SRV_REQ, request={    "name": "HoaiPN",    "age": 20}, header={User-Agent=PostmanRuntime/7.39.0, Host=localhost:8888, Method=POST}
+2024-07-06 14:33:34,062 INFO AuditFilter [http-nio-8888-exec-7] [dsKGtfQY] [0:0:0:0:0:0:0:1] [hoaipn] [/api/customer]: ALOG_SRV_RES, request={    "name": "HoaiPN",    "age": 20}, response={"name":"HoaiPN","age":20}, header={User-Agent=PostmanRuntime/7.39.0, Host=localhost:8888, Method=POST}
+2024-07-06 14:33:38,580 INFO AuditFilter [http-nio-8888-exec-8] [Qr7YxokW] [0:0:0:0:0:0:0:1] [hoaipn] [/api/customer]: ALOG_SRV_REQ, request={    "name": "HoaiPN",    "age": 200}, header={User-Agent=PostmanRuntime/7.39.0, Host=localhost:8888, Method=POST}
+2024-07-06 14:33:38,589 ERROR DirectJDKLog [http-nio-8888-exec-8] [Qr7YxokW] [0:0:0:0:0:0:0:1] [hoaipn] [/api/customer]: Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IllegalStateException: Tuổi không lớn hơn 100] with root cause
+java.lang.IllegalStateException: Tuổi không lớn hơn 100
+	at com.example.demokeycloak22.resource.TestResource.updateSth(TestResource.java:18)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:798)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at com.example.demokeycloak22.config.AuditFilter.doFilterInternal(AuditFilter.java:41)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter.doFilterInternal(BearerTokenAuthenticationFilter.java:145)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:117)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
