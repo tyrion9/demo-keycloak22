@@ -13,6 +13,7 @@ import org.springframework.web.filter.OncePerRequestFilter;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Objects;
 
 @Component
 @Slf4j
@@ -49,7 +50,7 @@ public class AuditFilter extends OncePerRequestFilter {
 
             log.info("ALOG_SRV_RES, request={}, response={}, header={}",
                     wrappedRequest.getBody().replaceAll("[\\n|\\r]", ""),
-                    msgResp != null ? msgResp.,
+                    msgResp != null && msgResp.length() <= 200 ? msgResp : Objects.requireNonNull(msgResp).substring(0, 199),
                     mapAuditHeader);
         }
     }
