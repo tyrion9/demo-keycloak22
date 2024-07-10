@@ -10,9 +10,7 @@ import org.slf4j.MDC;
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -29,56 +27,65 @@ public class AuditFilter extends OncePerRequestFilter {
         MDC.put("clientIp", getClientIp(request));
         MDC.put("method", request.getMethod());
 
+        Map mapAuditHeader = auditHeader(request,
+                "User-Agent", "Device-Id");
+
         CustomHttpServletRequestWrapper wrappedRequest = new CustomHttpServletRequestWrapper(request);
         CustomHttpServletResponseWrapper wrappedResponse = new CustomHttpServletResponseWrapper(response);
 
 
         log.info("ALOG_SRV_REQ, request={}, header={}",
-                getRequestBody(wrappedRequest),
-                auditHeader(request));
+                wrappedRequest.getBody().replaceAll("[\\n|\\r]", ""),
+                mapAuditHeader);
 
         // Continue the filter chain
-        filterChain.doFilter(wrappedRequest, wrappedResponse);
+        try {
+            filterChain.doFilter(wrappedRequest, wrappedResponse);
+        } finally {
+            String msgResp = wrappedResponse.getCaptureAsString();
 
-        MDC.put("httpCode", String.valueOf(wrappedResponse.getStatus()));
+            MDC.put("httpCode", String.valueOf(wrappedResponse.getStatus()));
+            MDC.put("status", getResponseResult(wrappedResponse));
 
-        log.info("ALOG_SRV_RES, request={}, response={}, header={}",
-                wrappedRequest.getBody().replaceAll("[\\n|\\r]", ""),
-                wrappedResponse.getCaptureAsString(),
-                auditHeader(request));
+            log.info("ALOG_SRV_RES, request={}, response={}, header={}",
+                    wrappedRequest.getBody().replaceAll("[\\n|\\r]", ""),
+                    msgResp != null ? msgResp.,
+                    mapAuditHeader);
+        }
     }
 
     public static String getClientIp(HttpServletRequest request) {
         String ipAddress = request.getHeader("X-Forwarded-For");
         if (ipAddress != null && !ipAddress.isEmpty() && !"unknown".equalsIgnoreCase(ipAddress)) {
-            // The X-Forwarded-For header may contain a comma-separated list of IP addresses
             // The first IP address in the list is the original client IP
             return ipAddress.split(",")[0];
         }
-        // If the X-Forwarded-For header is not present, fall back to getRemoteAddr()
+
         return request.getRemoteAddr();
     }
 
-    public static Map auditHeader(HttpServletRequest req) {
+    public static String getResponseResult(CustomHttpServletResponseWrapper response) throws IOException {
+        if (response.getStatus() >= 200 && response.getStatus() < 300) {
+            if (response.getCaptureAsString().contains("\"Error\" = true"))
+                return "FAIL";
+
+            return "SUCC";
+        }
+
+        return "FAIL";
+    }
+
+    public static Map<String, String> auditHeader(HttpServletRequest req, String... keys) {
         Map<String, String> auditHeader = new HashMap<>();
-        auditHeader.put("User-Agent", req.getHeader("User-Agent"));
-        auditHeader.put("Host", req.getHeader("Host"));
-        auditHeader.put("Method", req.getMethod());
+
+        if (keys == null || keys.length == 0)
+            return auditHeader;
+
+        for (String key : keys) {
+            auditHeader.put(key, req.getHeader(key));
+        }
 
         return auditHeader;
     }
 
-    public static String getRequestBody(HttpServletRequest request) {
-        StringBuilder requestBody = new StringBuilder();
-        try (BufferedReader reader = new BufferedReader(new InputStreamReader(request.getInputStream()))) {
-            String line;
-            while ((line = reader.readLine()) != null) {
-                requestBody.append(line);
-            }
-        } catch (IOException e) {
-            // Handle exception as needed
-            e.printStackTrace();
-        }
-        return requestBody.toString();
-    }
 }
